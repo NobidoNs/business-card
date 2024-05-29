@@ -15,61 +15,68 @@ export default function Home() {
 			</div>
 
 			<div className='mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-3 lg:text-left shadow-2xl py-20 space-x-5'>
-				<a
-					href='https://github.com/NobidoNs'
-					className='group rounded-full border border-transparent px-5 py-4 transition-colors hover:shadow-lg hover:shadow-cyan-500/50 hover:border-cyan-300 hover:bg-cyan-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30'
-					target='_blank'
-					rel='noopener noreferrer'
-				>
-					<h2 className='mb-3 text-2xl text-center font-semibold'>
-						GitHub{' '}
-						<span className='inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none'>
-							-&gt;
-						</span>
-					</h2>
-				</a>
+				<div className='columns-1'>
+					<div className='group rounded-full border border-transparent px-5 py-4 transition-colors hover:shadow-lg hover:shadow-cyan-500/50 hover:border-cyan-300 hover:bg-cyan-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30'>
+						<a
+							href='https://github.com/NobidoNs'
+							target='_blank'
+							rel='noopener noreferrer'
+						>
+							<h2 className='mb-3 text-2xl text-center font-semibold'>
+								GitHub{' '}
+								<span className='inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none'>
+									-&gt;
+								</span>
+							</h2>
+						</a>
+					</div>
+				</div>
 
-				<a
-					href='https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app'
-					className='group rounded-full border border-transparent px-5 py-4 transition-colors hover:shadow-lg hover:shadow-cyan-500/50 hover:border-cyan-300 hover:bg-cyan-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30'
-					target='_blank'
-					rel='noopener noreferrer'
-				>
-					<h2 className='mb-3 text-2xl text-center font-semibold'>
-						Gmail{' '}
-						<span className='inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none'>
-							-&gt;
-						</span>
-					</h2>
-				</a>
+				<div className='columns-1'>
+					<div className='group rounded-full border border-transparent px-5 py-4 transition-colors hover:shadow-lg hover:shadow-cyan-500/50 hover:border-cyan-300 hover:bg-cyan-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30'>
+						<a
+							href='https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app'
+							target='_blank'
+							rel='noopener noreferrer'
+						>
+							<h2 className='mb-3 text-2xl text-center font-semibold'>
+								Gmail{' '}
+								<span className='inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none'>
+									-&gt;
+								</span>
+							</h2>
+						</a>
+					</div>
+				</div>
 
-				{/* <div> */}
-				{/* <div className=''> */}
-				<a
-					href='https://discordapp.com/users/608896883271663645'
-					className='group rounded-full border border-transparent px-5 py-4 transition-colors hover:shadow-lg hover:shadow-cyan-500/50 hover:border-cyan-300 hover:bg-cyan-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30'
-					target='_blank'
-					rel='noopener noreferrer'
-				>
-					<h2 className='mb-3 text-2xl text-center font-semibold'>
-						Discord{' '}
-						<span className='inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none'>
-							-&gt;
-						</span>
-					</h2>
-				</a>
-				{/* </div> */}
-				{/* <div>
-						<Image
-							className='relative dark:drop-shadow-[0_0_0.3rem_#ffffff70]'
-							src='/Discord3D.png'
-							alt='Next.js Logo'
-							width={180}
-							height={37}
-							priority
-						/>
-					</div> */}
-				{/* </div> */}
+				<div className='columns-1'>
+					<div className='group rounded-full border border-transparent px-5 py-4 transition-colors hover:shadow-lg hover:shadow-cyan-500/50 hover:border-cyan-300 hover:bg-cyan-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30'>
+						<a
+							href='https://discordapp.com/users/608896883271663645'
+							target='_blank'
+							rel='noopener noreferrer'
+						>
+							<h2 className='mb-3 text-2xl text-center font-semibold'>
+								Discord{' '}
+								<span className='inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none'>
+									-&gt;
+								</span>
+							</h2>
+						</a>
+					</div>
+					<div className='flex justify-center md:max-lg:flex'>
+						<a href='https://discordapp.com/users/608896883271663645'>
+							<Image
+								className='object-fill hover:drop-shadow-[0_0_0.5rem_#60a5fa]'
+								src='/Discord3D.png'
+								alt='Next.js Logo'
+								width={128}
+								height={128}
+								priority
+							/>
+						</a>
+					</div>
+				</div>
 			</div>
 
 			<div className=''>
