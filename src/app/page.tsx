@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import ProjectLink from './components/ProjectLink'
 import { GmailColumn } from './components/TableOfLinks/GmailColumn'
 import { GitColumn } from './components/TableOfLinks/GitColumn'
 import { DiscordColumn } from './components/TableOfLinks/DiscordColumn'
@@ -23,6 +24,10 @@ export default function Home() {
 				<GmailColumn />
 
 				<DiscordColumn />
+			</div>
+
+			<div>
+				<ProjectLink />
 			</div>
 		</main>
 	)

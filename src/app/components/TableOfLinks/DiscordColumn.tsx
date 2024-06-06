@@ -20,7 +20,10 @@ export function DiscordColumn() {
 				</a>
 			</div>
 			<div className='flex justify-center md:max-lg:flex pt-2'>
-				<a href='https://discordapp.com/users/608896883271663645'>
+				<a
+					href='https://discordapp.com/users/608896883271663645'
+					target='_blank'
+				>
 					<Image
 						className='object-fill hover:drop-shadow-[0_0_0.5rem_#60a5fa]'
 						src='/Discord3D.png'
