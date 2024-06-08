@@ -21,6 +21,15 @@ export function GitColumn() {
 			</div>
 			<div className='flex justify-center md:max-lg:flex pt-2'>
 				<a href='https://github.com/NobidoNs' target='_blank'>
+					{/* <div className='unit'>
+						<div className='group'>
+							<div className='blue rotate-x-[60deg]'>
+								<span>A</span>
+							</div>
+							<div className='border-gray'></div>
+						</div>
+						<p>rotate-x-[60deg]</p>
+					</div> */}
 					<Image
 						className='object-fill hover:drop-shadow-[0_0_0.5rem_#60a5fa]'
 						src='/github-2.png'
