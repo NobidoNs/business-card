@@ -1,10 +1,9 @@
 import Image from 'next/image'
-import ProjectLink from './components/ProjectLink'
+import ProjectLink from './components/HomePage/ProjectLink'
 import { Button3D } from '../../test'
-import { Header } from '../../test2'
-import { GmailColumn } from './components/TableOfLinks/GmailColumn'
-import { GitColumn } from './components/TableOfLinks/GitColumn'
-import { DiscordColumn } from './components/TableOfLinks/DiscordColumn'
+import { GmailColumn } from './components/HomePage/TableOfLinks/GmailColumn'
+import { GitColumn } from './components/HomePage/TableOfLinks/GitColumn'
+import { DiscordColumn } from './components/HomePage/TableOfLinks/DiscordColumn'
 
 export default function Home() {
 	return (

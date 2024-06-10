@@ -1,10 +1,13 @@
 'use client'
 
 import Image from 'next/image'
+import ImageSwiper from '../components/ProjectPage/Swiper'
 import { FaHome } from 'react-icons/fa'
 import { IconContext } from 'react-icons'
+import TableProjects from '../components/ProjectPage/Table'
 export default function Page() {
 	const LinkIcon = FaHome
+	const b = ['/header.png', '/header.png']
 	// let hovered = false
 	return (
 		<main className='min-h-9 flex-col justify-between bg-local select-none'>
@@ -38,6 +41,8 @@ export default function Page() {
 					</ul>
 				</div>
 			</nav>
+			<TableProjects></TableProjects>
+			{/* <ImageSwiper /> */}
 		</main>
 	)
 }
