@@ -10,10 +10,16 @@ export function Button3D() {
 		const rect = e.target.getBoundingClientRect()
 		const x = e.clientX - rect.left
 		const y = e.clientY - rect.top
-		const rotateX = y - rect.height / 2
-		const rotateY = -(x - rect.width / 2)
+		const rotateX = (y - rect.height / 2) / 7
+		const rotateY = -(x - rect.width / 2) / 10
 		setStyle({
 			transform: `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg)`,
+		})
+	}
+
+	const handleMouseLeave = e => {
+		setStyle({
+			transform: `perspective(1000px) rotateX(0deg) rotateY(0deg)`,
 		})
 	}
 
@@ -27,12 +33,13 @@ export function Button3D() {
 		// </button>
 		<Image
 			className='object-fill hover:drop-shadow-[0_0_0.5rem_#60a5fa]'
-			src='/github-2.png'
+			src='/Tanks/icon.png'
 			alt='Next.js Logo'
 			onMouseMove={handleMouseMove}
+			onMouseLeave={handleMouseLeave}
 			style={{ ...style, transition: 'transform 0.1s' }}
-			width={128}
-			height={128}
+			width={600}
+			height={80}
 			priority
 		/>
 	)

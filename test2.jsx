@@ -1,12 +1,37 @@
-export function Header() {
+import React from 'react'
+import { Swiper, SwiperSlide } from 'swiper/react'
+import 'swiper/css'
+
+const ImageSwiper = ({ images }) => {
+	const params = {
+		slidesPerView: 1,
+		spaceBetween: 30,
+		pagination: {
+			el: '.swiper-pagination',
+			clickable: true,
+		},
+	}
+
 	return (
-		<div className='portfolio-header'>
-			<h1>My Portfolio</h1>
-			<div className='icon-container'>
-				<i className='fas fa-laptop-code'></i>
-				<i className='fas fa-chart-line'></i>
-				<i className='fas fa-paint-brush'></i>
-			</div>
-		</div>
+		<Swiper
+			spaceBetween={50}
+			slidesPerView={3}
+			onSlideChange={() => console.log('slide change')}
+			onSwiper={swiper => console.log(swiper)}
+		>
+			<SwiperSlide>Slide 1</SwiperSlide>
+			<SwiperSlide>Slide 2</SwiperSlide>
+			<SwiperSlide>Slide 3</SwiperSlide>
+			<SwiperSlide>Slide 4</SwiperSlide>
+		</Swiper>
+		// <Swiper {...params}>
+		// 	{images.map((image, index) => (
+		// 		<div key={index}>
+		// 			<img src={image} alt={`Slide ${index}`} />
+		// 		</div>
+		// 	))}
+		// </Swiper>
 	)
 }
+
+export default ImageSwiper

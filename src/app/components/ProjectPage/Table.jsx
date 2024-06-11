@@ -1,5 +1,8 @@
+'use client'
+
 import React from 'react'
 import Image from 'next/image'
+import { Button3D } from '../../../../test'
 
 export default function TableProjects() {
 	return (
@@ -19,14 +22,7 @@ export default function TableProjects() {
 					</div>
 				</th>
 				<th>
-					<Image
-						className='relative dark:drop-shadow-[0_0_0.3rem_#ffffff70]'
-						src='/header.png'
-						alt='Next.js Logo'
-						width={300}
-						height={40}
-						priority
-					/>
+					<Button3D />
 				</th>
 			</tr>
 			<tr>
