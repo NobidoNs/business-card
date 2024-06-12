@@ -2,17 +2,17 @@
 
 import Image from 'next/image'
 
-export function DiscordColumn() {
+export function GitColumn() {
 	return (
 		<div className='columns-1 select-none'>
 			<div className='group rounded-full border border-transparent px-5 py-4 transition-colors hover:shadow-lg hover:shadow-cyan-500/50 hover:border-cyan-300 hover:bg-cyan-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30'>
 				<a
-					href='https://discordapp.com/users/608896883271663645'
+					href='https://github.com/NobidoNs'
 					target='_blank'
 					rel='noopener noreferrer'
 				>
 					<h2 className='mb-3 text-2xl text-center font-semibold'>
-						Discord{' '}
+						GitHub{' '}
 						<span className='inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none'>
 							-&gt;
 						</span>
@@ -20,10 +20,19 @@ export function DiscordColumn() {
 				</a>
 			</div>
 			<div className='flex justify-center md:max-lg:flex pt-2'>
-				<a href='https://discordapp.com/users/608896883271663645'>
+				<a href='https://github.com/NobidoNs' target='_blank'>
+					{/* <div className='unit'>
+						<div className='group'>
+							<div className='blue rotate-x-[60deg]'>
+								<span>A</span>
+							</div>
+							<div className='border-gray'></div>
+						</div>
+						<p>rotate-x-[60deg]</p>
+					</div> */}
 					<Image
 						className='object-fill hover:drop-shadow-[0_0_0.5rem_#60a5fa]'
-						src='/Discord3D.png'
+						src='/github-2.png'
 						alt='Next.js Logo'
 						width={128}
 						height={128}

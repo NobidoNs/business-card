@@ -1,7 +1,8 @@
 import Image from 'next/image'
-import { GmailColumn } from './components/TableOfLinks/GmailColumn'
-import { GitColumn } from './components/TableOfLinks/GitColumn'
-import { DiscordColumn } from './components/TableOfLinks/DiscordColumn'
+import ProjectLink from './components/HomePage/ProjectLink'
+import { GmailColumn } from './components/HomePage/TableOfLinks/GmailColumn'
+import { GitColumn } from './components/HomePage/TableOfLinks/GitColumn'
+import { DiscordColumn } from './components/HomePage/TableOfLinks/DiscordColumn'
 
 export default function Home() {
 	return (
@@ -23,6 +24,10 @@ export default function Home() {
 				<GmailColumn />
 
 				<DiscordColumn />
+			</div>
+
+			<div>
+				<ProjectLink />
 			</div>
 		</main>
 	)
