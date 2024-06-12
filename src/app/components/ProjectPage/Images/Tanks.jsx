@@ -10,8 +10,8 @@ export function TanksImage() {
 		const rect = e.target.getBoundingClientRect()
 		const x = e.clientX - rect.left
 		const y = e.clientY - rect.top
-		const rotateX = (y - rect.height / 2) / 10
-		const rotateY = -(x - rect.width / 2) / 13
+		const rotateX = (y - rect.height / 2) / 25
+		const rotateY = -(x - rect.width / 2) / 25
 		setStyle({
 			transform: `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg)`,
 		})
@@ -31,9 +31,8 @@ export function TanksImage() {
 			onMouseMove={handleMouseMove}
 			onMouseLeave={handleMouseLeave}
 			style={{ ...style, transition: 'transform 0.1s' }}
-			width={600}
+			width={720}
 			height={80}
-			priority
 		/>
 	)
 }

@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import ProjectLink from './components/HomePage/ProjectLink'
-import { Button3D } from '../../test'
 import { GmailColumn } from './components/HomePage/TableOfLinks/GmailColumn'
 import { GitColumn } from './components/HomePage/TableOfLinks/GitColumn'
 import { DiscordColumn } from './components/HomePage/TableOfLinks/DiscordColumn'
