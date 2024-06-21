@@ -7,10 +7,12 @@ import Navigation from '../components/ProjectPage/navigation'
 
 export default function Page() {
 	return (
-		<main className='no-scrollbar'>
-			<Navigation />
-			<TableProjects />
-			{/* <ImageSwiper /> */}
+		<main style={{ overflowY: 'hidden' }}>
+			<div style={{ overflowY: 'hidden' }}>
+				<Navigation />
+				<TableProjects />
+				{/* <ImageSwiper /> */}
+			</div>
 		</main>
 	)
 }
