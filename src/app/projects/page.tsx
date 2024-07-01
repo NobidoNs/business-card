@@ -4,6 +4,7 @@ import Image from 'next/image'
 import ImageSwiper from '../components/ProjectPage/Swiper'
 import TableProjects from '../components/ProjectPage/Table'
 import Navigation from '../components/ProjectPage/navigation'
+import TanksInfo from '../components/ProjectPage/TanksInfo'
 
 export default function Page() {
 	return (
@@ -11,6 +12,7 @@ export default function Page() {
 			<div style={{ overflowY: 'hidden' }}>
 				<Navigation />
 				<TableProjects />
+				<TanksInfo />
 				{/* <ImageSwiper /> */}
 			</div>
 		</main>

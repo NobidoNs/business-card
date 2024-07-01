@@ -49,3 +49,7 @@ body {
 ::-webkit-scrollbar-thumb:hover {
 	background: #222;
 }
+
+.round {
+	border-radius: 8%;
+}
