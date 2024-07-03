@@ -32,7 +32,7 @@ export function GitColumn() {
 					</div> */}
 					<Image
 						className='object-fill hover:drop-shadow-[0_0_0.5rem_#60a5fa]'
-						src='/github-2.png'
+						src='/Main/github-2.png'
 						alt='Next.js Logo'
 						width={128}
 						height={128}

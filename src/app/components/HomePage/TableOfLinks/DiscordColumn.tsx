@@ -1,6 +1,7 @@
 'use client'
 
 import Image from 'next/image'
+// import ds from ''
 
 export function DiscordColumn() {
 	return (
@@ -26,7 +27,8 @@ export function DiscordColumn() {
 				>
 					<Image
 						className='object-fill hover:drop-shadow-[0_0_0.5rem_#60a5fa]'
-						src='/Discord3D.png'
+						src='/Main/Discord3D.png'
+						// src=''
 						alt='Next.js Logo'
 						width={128}
 						height={128}
