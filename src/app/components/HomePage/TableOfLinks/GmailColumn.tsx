@@ -14,9 +14,14 @@ export function GmailColumn() {
 	return (
 		<div>
 			<CopyToClipboard text={textToCopy} onCopy={onCopyText}>
-				<div className='flex justify-center md:max-lg:flex pt-2 select-none group rounded-full border border-transparent px-5 py-4 transition-colors hover:shadow-lg hover:shadow-cyan-500/50 hover:border-cyan-300 hover:bg-cyan-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30'>
+				<div
+					className='flex justify-center md:max-lg:flex px-5 py-4 select-none group transition-colors
+				rounded-full border border-transparent bg-gradient-to-r from-violet-400/70 to-fuchsia-500/70
+				hover:shadow-lg hover:shadow-cyan-500/50 hover:border-neutral-700 hover:bg-neutral-800/30 
+				bg-neutral-800/30 border-neutral-700 md:bg-transparent md:border-transparent md:from-transparent'
+				>
 					<a target='_blank' rel='noopener noreferrer'>
-						<h2 className='mb-3 text-2xl text-center font-semibold'>
+						<h2 className='md:mb-3 text-2xl text-center font-semibold'>
 							Gmail{' '}
 							<span className='inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none'>
 								-&gt;
@@ -25,7 +30,7 @@ export function GmailColumn() {
 					</a>
 				</div>
 			</CopyToClipboard>
-			<div className='pt-5 select-auto'>
+			<div className='pt-3 select-auto'>
 				<p className='left-0 top-0 p-4 flex w-full justify-center border backdrop-blur-2xl border-neutral-800 bg-zinc-800/30 from-inherit rounded-xl'>
 					<code className='select-all font-mono font-bold'>
 						NobidoN.tim@gmail.com
@@ -33,8 +38,8 @@ export function GmailColumn() {
 				</p>
 			</div>
 			{copyStatus && (
-				<p className='text-center font-mono font-bold py-3'>
-					Gmail copied to clipboard!
+				<p className='text-center font-mono font-bold pt-3'>
+					Gmail copied to clipboard
 				</p>
 			)}
 		</div>
