@@ -26,8 +26,10 @@ export function GmailColumn() {
 				</div>
 			</CopyToClipboard>
 			<div className='pt-5 select-auto'>
-				<p className='left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 px-3 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30'>
-					<code className='font-mono font-bold'>NobidoN.tim@gmail.com</code>
+				<p className='left-0 top-0 p-4 flex w-full justify-center border backdrop-blur-2xl border-neutral-800 bg-zinc-800/30 from-inherit rounded-xl'>
+					<code className='select-all font-mono font-bold'>
+						NobidoN.tim@gmail.com
+					</code>
 				</p>
 			</div>
 			{copyStatus && (
