@@ -25,7 +25,7 @@ export function TanksImage() {
 
 	return (
 		<Image
-			className='object-fill hover:drop-shadow-[0_0_0.5rem_#60a5fa] round'
+			className='object-fill hover:drop-shadow-[0_0_0.5rem_#60a5fa] rounded-3xl'
 			src='/Tanks/icon.png'
 			alt='Next.js Logo'
 			onMouseMove={handleMouseMove}

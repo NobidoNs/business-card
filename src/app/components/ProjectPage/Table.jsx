@@ -9,24 +9,24 @@ export default function TableProjects() {
 		<table className='size-full'>
 			<tbody>
 				<tr>
-					<td className='p-5 py-8'>
+					<td className='p-5 pt-8'>
 						<div className='flex justify-center items-center'>
 							<TanksImage />
 						</div>
 					</td>
-					<td className='p-5 py-8'>
+					<td className='p-5 pt-8'>
 						<div className='flex justify-center items-center'>
 							<TanksImage />
 						</div>
 					</td>
 				</tr>
 				<tr>
-					<td className='p-5 py-8'>
+					<td className='p-5 pt-8'>
 						<div className='flex justify-center items-center'>
 							<TanksImage />
 						</div>
 					</td>
-					<td className=' p-5 py-8'>
+					<td className=' p-5 pt-8'>
 						<div className='flex justify-center items-center'>
 							<TanksImage />
 						</div>
