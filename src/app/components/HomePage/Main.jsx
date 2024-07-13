@@ -26,7 +26,7 @@ export default function ContactPage() {
 					/>
 				</div>
 
-				<div className='space-y-24 pb-24 grid text-center grid-cols-1 md:grid-cols-3 md:space-y-0 md:mb-0 lg:w-full lg:max-w-5xl lg:text-left shadow-2xl py-16 md:py-20 '>
+				<div className='space-y-24 pb-24 grid text-center grid-cols-1 md:grid-cols-3 md:space-y-0 md:mb-0 lg:w-full lg:max-w-5xl lg:text-left py-16 md:py-20 '>
 					<GitColumn />
 					<GmailColumn />
 					<DiscordColumn />

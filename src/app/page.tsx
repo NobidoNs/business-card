@@ -8,10 +8,10 @@ export default function Home() {
 			<ProjectPage />
 			<div>{/* <img src='/SPACE.gif' alt='GIF Image' /> */}</div>
 			<div
-				className="select-none z-[-1] static
-							after:absolute after:h-[80px] after:w-full after:-translate-x-1/4 after:bg-gradient-conic
-						after:blur-2xl after:content-[''] after:from-sky-900 after:via-[#0141ff] after:opacity-100
-							 left-0 bottom-0"
+				className="select-none z-[-1] absolute
+						h-1/2 w-1/3 bg-gradient-conic rounded-full
+					blur-2xl content-[''] from-DV9 to-DV7 opacity-20
+					-left-40 -bottom-40"
 			>
 				o
 			</div>
