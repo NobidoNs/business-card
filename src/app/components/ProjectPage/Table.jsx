@@ -9,7 +9,7 @@ export default function TableProjects() {
 		<table className='size-full table-fixed'>
 			<tbody>
 				<tr>
-					<td className='select-none p-5 pt-8 max-h-80 shadow-lg shadow-cyan-500/50 rounded-l pb-48'>
+					<td className='select-none p-5 pt-8 max-h-80 rounded-l pb-48'>
 						<div className='justify-center items-center'>
 							<TanksImage />
 							<div className='pt-4 select-auto'>
@@ -26,7 +26,7 @@ export default function TableProjects() {
 							<TanksImage />
 						</div>
 					</td>
-					<td className='select-none p-5 pt-8 shadow-lg shadow-cyan-500/50 rounded-l'>
+					<td className='select-none p-5 pt-8 rounded-l'>
 						<div className='justify-center items-center '>
 							<TanksImage />
 						</div>

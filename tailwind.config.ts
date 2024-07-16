@@ -11,6 +11,10 @@ const config: Config = {
 			colors: {
 				DV7: '#7608fa',
 				DV9: '#4c139c',
+				LG4: '#00ff00',
+				LG3: '#56ff50',
+				LB: '#0091ff',
+				LG: '#00ffff',
 			},
 			backgroundImage: {
 				'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
