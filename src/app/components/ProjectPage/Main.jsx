@@ -1,5 +1,5 @@
 import TableProjects from '../../components/ProjectPage/Table'
-import TanksInfo from '../../components/ProjectPage/TanksInfo'
+import TanksInfo from './TableData/Tanks'
 
 export default function ProjectPage() {
 	return (

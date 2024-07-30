@@ -35,40 +35,42 @@ export function MapImage() {
 	}
 
 	return (
-		<div className='w-full h-64 relative'>
-			<div
-				className='w-full h-64 absolute z-10 rounded-3xl'
-				style={{
-					...style,
-					transition: 'transform 0.1s',
-					overflow: 'hidden',
-					pointerEvents: 'none',
-				}}
-			>
+		<div className='select-none p-5 rounded-l table-cell'>
+			<div className='w-full h-64 relative'>
 				<div
-					className='absolute opacity-0'
+					className='w-full h-64 absolute z-10 rounded-3xl'
 					style={{
-						...style2,
-						top: '70%',
-						left: '70%',
+						...style,
+						transition: 'transform 0.1s',
+						overflow: 'hidden',
 						pointerEvents: 'none',
-						backgroundImage:
-							'linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 100%)',
-						width: '880px',
-						height: '880px',
-						transformOrigin: '0% 0%',
 					}}
+				>
+					<div
+						className='absolute opacity-0'
+						style={{
+							...style2,
+							top: '70%',
+							left: '70%',
+							pointerEvents: 'none',
+							backgroundImage:
+								'linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 100%)',
+							width: '880px',
+							height: '880px',
+							transformOrigin: '0% 0%',
+						}}
+					/>
+				</div>
+				<Image
+					className='object-fill hover:drop-shadow-[0_0_0.5rem_#60a5fa] rounded-3xl z-1 border-2 border-zinc-500'
+					src='/map.png'
+					alt='Map'
+					fill={true}
+					onMouseMove={handleMouseMove}
+					onMouseLeave={handleMouseLeave}
+					style={{ ...style, transition: 'transform 0.1s' }}
 				/>
 			</div>
-			<Image
-				className='object-fill hover:drop-shadow-[0_0_0.5rem_#60a5fa] rounded-3xl z-1 border-2 border-zinc-500'
-				src='/map.png'
-				alt='Map'
-				fill={true}
-				onMouseMove={handleMouseMove}
-				onMouseLeave={handleMouseLeave}
-				style={{ ...style, transition: 'transform 0.1s' }}
-			/>
 		</div>
 	)
 }
