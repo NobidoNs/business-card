@@ -3,6 +3,24 @@
 import React, { useState } from 'react'
 import Image from 'next/image'
 
+function handleClick() {
+	if (document.getElementById('MapDiv').style.opacity == 0.15) {
+		document.getElementById('MapDiv').style.opacity = 0
+		document.getElementById('MapInfo').style.opacity = 0
+	} else {
+		document.getElementById('MapDiv').style.opacity = 0.15
+		document.getElementById('MapInfo').style.opacity = 0.15
+	}
+	if (document.getElementById('TanksDiv').style.opacity == 0.15) {
+		document.getElementById('TanksDiv').style.opacity = 0
+		document.getElementById('TanksInfo').style.opacity = 0
+	}
+	if (document.getElementById('SpreadDiv').style.opacity == 0.15) {
+		document.getElementById('SpreadDiv').style.opacity = 0
+		document.getElementById('SpreadInfo').style.opacity = 0
+	}
+}
+
 export function MapImage() {
 	const [style, setStyle] = useState({ transform: '' })
 	const [style2, setStyle2] = useState({ transform: '' })
@@ -37,7 +55,7 @@ export function MapImage() {
 	return (
 		<div className='w-full h-64 relative'>
 			<div
-				className='w-full h-64 absolute z-10 rounded-3xl'
+				className='w-full h-64 absolute z-30 rounded-3xl'
 				style={{
 					...style,
 					transition: 'transform 0.1s',
@@ -61,13 +79,14 @@ export function MapImage() {
 				/>
 			</div>
 			<Image
-				className='object-fill hover:drop-shadow-[0_0_0.5rem_#60a5fa] rounded-3xl z-1 border-2 border-zinc-500'
+				className='object-fill hover:drop-shadow-[0_0_0.5rem_#60a5fa] rounded-3xl z-20 border-2 border-zinc-500'
 				src='/map.png'
 				alt='Map'
 				fill={true}
 				onMouseMove={handleMouseMove}
 				onMouseLeave={handleMouseLeave}
 				style={{ ...style, transition: 'transform 0.1s' }}
+				onClick={() => handleClick()}
 			/>
 		</div>
 	)

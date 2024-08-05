@@ -4,8 +4,21 @@ import React, { useState } from 'react'
 import Image from 'next/image'
 
 function handleClick() {
-	document.getElementById('TanksDiv').style.opacity = 0.15
-	document.getElementById('TanksInfo').style.opacity = 0.15
+	if (document.getElementById('TanksDiv').style.opacity == 0.15) {
+		document.getElementById('TanksDiv').style.opacity = 0
+		document.getElementById('TanksInfo').style.opacity = 0
+	} else {
+		document.getElementById('TanksDiv').style.opacity = 0.15
+		document.getElementById('TanksInfo').style.opacity = 0.15
+	}
+	if (document.getElementById('SpreadDiv').style.opacity == 0.15) {
+		document.getElementById('SpreadDiv').style.opacity = 0
+		document.getElementById('SpreadInfo').style.opacity = 0
+	}
+	if (document.getElementById('MapDiv').style.opacity == 0.15) {
+		document.getElementById('MapDiv').style.opacity = 0
+		document.getElementById('MapInfo').style.opacity = 0
+	}
 }
 
 export function TanksImage() {
