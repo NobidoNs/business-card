@@ -33,7 +33,7 @@ export function GmailColumn() {
 			<div className='pt-3 select-auto'>
 				<p className='left-0 top-0 p-4 flex w-full justify-center border backdrop-blur-2xl border-neutral-800 bg-zinc-800/30 from-inherit rounded-xl'>
 					<code className='select-all font-mono font-bold'>
-						NobidoN.tim@gmail.com
+						NobidoN.Tim@gmail.com
 					</code>
 				</p>
 			</div>
