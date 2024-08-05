@@ -3,6 +3,11 @@
 import React, { useState } from 'react'
 import Image from 'next/image'
 
+function handleClick() {
+	document.getElementById('TanksDiv').style.opacity = 0.15
+	document.getElementById('TanksInfo').style.opacity = 0.15
+}
+
 export function TanksImage() {
 	const [style, setStyle] = useState({ transform: '' })
 	const [style2, setStyle2] = useState({ transform: '' })
@@ -68,6 +73,7 @@ export function TanksImage() {
 				onMouseMove={handleMouseMove}
 				onMouseLeave={handleMouseLeave}
 				style={{ ...style, transition: 'transform 0.1s' }}
+				onClick={() => handleClick()}
 			/>
 		</div>
 	)

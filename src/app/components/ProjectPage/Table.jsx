@@ -14,11 +14,12 @@ export default function TableProjects() {
 				<div className='absolute top-2 h-full w-full left-0'>
 					<div className='pl-2 pb-1.5 h-full'>
 						<div
-							className='border-x-2 border-t h-full rounded-t-md bg-black opacity-0 hover:opacity-15 z-20'
+							className='border-x-2 border-t h-full rounded-t-md bg-black opacity-0 z-20'
 							style={{
 								backgroundImage:
 									'linear-gradient(0deg, #65d3ba,#2cfab8,#3eef74)',
 							}}
+							id='TanksDiv'
 						>
 							{' '}
 						</div>
@@ -34,10 +35,11 @@ export default function TableProjects() {
 
 			<div className='col-span-3 px-2'>
 				<div
-					className='border-2 rounded-tl-none rounded-lg pl-2 h-full bg-blue opacity-15 z-10'
+					className='border-2 rounded-tl-none rounded-lg pl-2 h-full bg-blue opacity-0 z-10'
 					style={{
 						backgroundImage: 'linear-gradient(0deg, #3eef74,#2cfab8,#65d3ba)',
 					}}
+					id='TanksInfo'
 				>
 					test
 				</div>
