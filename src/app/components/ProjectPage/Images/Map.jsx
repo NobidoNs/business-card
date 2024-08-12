@@ -79,7 +79,7 @@ export function MapImage() {
 				/>
 			</div>
 			<Image
-				className='object-fill hover:drop-shadow-[0_0_0.5rem_#60a5fa] rounded-3xl z-20 border-2 border-zinc-500'
+				className='object-fill hover:drop-shadow-[0_0_0.5rem_#60a5fa] rounded-3xl z-20 border-2 border-zinc-500 cursor-pointer'
 				src='/map.png'
 				alt='Map'
 				fill={true}

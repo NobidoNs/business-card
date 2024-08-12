@@ -1,6 +1,7 @@
 import ContactPage from './components/HomePage/Main'
 import ProjectPage from './components/ProjectPage/Main'
 import Decorations from './components/Decorations'
+import Footer from './components/footer'
 
 export default function Home() {
 	return (
@@ -8,6 +9,7 @@ export default function Home() {
 			<ContactPage />
 			<ProjectPage />
 			<Decorations />
+			<Footer />
 		</main>
 	)
 }

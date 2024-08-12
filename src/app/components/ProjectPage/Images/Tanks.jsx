@@ -79,7 +79,7 @@ export function TanksImage() {
 				/>
 			</div>
 			<Image
-				className='object-fill hover:drop-shadow-[0_0_0.5rem_#60a5fa] rounded-3xl z-20 border-2 border-zinc-500'
+				className='object-fill hover:drop-shadow-[0_0_0.5rem_#60a5fa] rounded-3xl z-20 border-2 border-zinc-500 cursor-pointer'
 				src='/Tanks/icon.png'
 				alt='Tanks'
 				fill={true}
