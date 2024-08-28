@@ -34,16 +34,16 @@ export default function TableProjects() {
 	}
 
 	return (
-		<div className='grid grid-rows-2 grid-cols-3 w-full'>
-			<div className='select-none p-5 rounded-l relative'>
+		<div className='md:grid md:grid-rows-2 md:grid-cols-3 w-full static z-10 '>
+			<div className='select-none p-5 rounded-l md:relative'>
 				<TanksImage onChange={changeT_visible} />
 				<TanksBG vis={t_visible} />
 			</div>
-			<div className='select-none p-5 rounded-l relative'>
+			<div className='select-none p-5 rounded-l md:relative'>
 				<MapImage onChange={() => changeM_visible(!m_visible)} />
 				<MapBG vis={m_visible} />
 			</div>
-			<div className='select-none p-5 rounded-l relative'>
+			<div className='select-none p-5 rounded-l md:relative'>
 				<SpreadImage onChange={() => changeS_visible(!s_visible)} />
 				<SpreadBG vis={s_visible} />
 			</div>

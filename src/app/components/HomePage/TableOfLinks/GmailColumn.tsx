@@ -12,7 +12,7 @@ export function GmailColumn() {
 	}
 
 	return (
-		<div>
+		<div className='columns-1 select-none'>
 			<CopyToClipboard text={textToCopy} onCopy={onCopyText}>
 				<div
 					className='flex justify-center md:max-lg:flex px-5 py-4 select-none group transition-colors

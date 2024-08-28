@@ -37,7 +37,7 @@ export function TanksImage({ onChange }) {
 	return (
 		<div className='w-full h-64 relative'>
 			<div
-				className='w-full h-64 absolute z-30 rounded-3xl'
+				className='w-full h-64 md:absolute relative z-30 rounded-3xl'
 				style={{
 					...style,
 					transition: 'transform 0.1s',
@@ -46,7 +46,7 @@ export function TanksImage({ onChange }) {
 				}}
 			>
 				<div
-					className='absolute opacity-0'
+					className='md:absolute relative opacity-0'
 					style={{
 						...style2,
 						top: '70%',

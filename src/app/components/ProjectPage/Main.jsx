@@ -1,15 +1,13 @@
 import TableProjects from '../../components/ProjectPage/Table'
-import TanksInfo from './TableData/Tanks'
 
 export default function ProjectPage() {
 	return (
 		<div
-			className='flex h-svh w-full flex-col items-center justify-between bg-local"'
+			className='md:flex md:h-svh w-full md:flex-col items-center justify-between bg-local pt-10 md:pt-0'
 			id='projects'
 		>
-			<div className='flex max-h-80 w-full flex-col items-center justify-between bg-local'>
+			<div className='md:flex md:max-h-80 w-full md:flex-col items-center justify-between bg-local'>
 				<TableProjects />
-				{/* <TanksInfo /> */}
 			</div>
 		</div>
 	)
