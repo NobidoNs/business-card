@@ -37,7 +37,7 @@ export function MapImage({ onChange }) {
 	return (
 		<div className='w-full h-64 relative'>
 			<div
-				className='w-full h-64 absolute z-30 rounded-3xl'
+				className='w-full h-64 absolute z-30 rounded-3xl hide md:block'
 				style={{
 					...style,
 					transition: 'transform 0.1s',
@@ -61,7 +61,7 @@ export function MapImage({ onChange }) {
 				/>
 			</div>
 			<Image
-				className='object-fill hover:drop-shadow-[0_0_0.5rem_#60a5fa] rounded-3xl z-20 border-2 border-zinc-500 cursor-pointer'
+				className='object-fill md:hover:drop-shadow-[0_0_0.5rem_#60a5fa] rounded-3xl z-20 border-2 border-zinc-500 cursor-pointer'
 				src='/map.png'
 				alt='Map'
 				fill={true}

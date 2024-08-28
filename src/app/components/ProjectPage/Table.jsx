@@ -34,25 +34,45 @@ export default function TableProjects() {
 	}
 
 	return (
-		<div className='md:grid md:grid-rows-2 md:grid-cols-3 w-full static z-10 '>
-			<div className='select-none p-5 rounded-l md:relative'>
-				<TanksImage onChange={changeT_visible} />
-				<TanksBG vis={t_visible} />
-			</div>
-			<div className='select-none p-5 rounded-l md:relative'>
-				<MapImage onChange={() => changeM_visible(!m_visible)} />
-				<MapBG vis={m_visible} />
-			</div>
-			<div className='select-none p-5 rounded-l md:relative'>
-				<SpreadImage onChange={() => changeS_visible(!s_visible)} />
-				<SpreadBG vis={s_visible} />
+		<>
+			<div className='md:grid md:grid-rows-2 md:grid-cols-3 w-full static z-10 hidden md:block'>
+				<div className='select-none p-5 rounded-l md:relative'>
+					<TanksImage onChange={changeT_visible} />
+					<TanksBG vis={t_visible} />
+				</div>
+				<div className='select-none p-5 rounded-l md:relative'>
+					<MapImage onChange={() => changeM_visible(!m_visible)} />
+					<MapBG vis={m_visible} />
+				</div>
+				<div className='select-none p-5 py-5 rounded-l md:relative'>
+					<SpreadImage onChange={() => changeS_visible(!s_visible)} />
+					<SpreadBG vis={s_visible} />
+				</div>
+
+				<div className='col-span-3 px-2'>
+					<TanksInfo vis={t_visible} />
+					<MapInfo vis={m_visible} />
+					<SpreadInfo vis={s_visible} />
+				</div>
 			</div>
 
-			<div className='col-span-3 px-2'>
-				<TanksInfo vis={t_visible} />
-				<MapInfo vis={m_visible} />
-				<SpreadInfo vis={s_visible} />
+			<div className='w-full static z-10 md:hidden'>
+				<div className='select-none p-5 rounded-l'>
+					<TanksImage onChange={changeT_visible} />
+					<TanksBG vis={t_visible} />
+					<TanksInfo vis={t_visible} />
+				</div>
+				<div className='select-none p-5 rounded-l'>
+					<MapImage onChange={() => changeM_visible(!m_visible)} />
+					<MapBG vis={m_visible} />
+					<MapInfo vis={m_visible} />
+				</div>
+				<div className='select-none p-5 py-5 rounded-l'>
+					<SpreadImage onChange={() => changeS_visible(!s_visible)} />
+					<SpreadBG vis={s_visible} />
+					<SpreadInfo vis={s_visible} />
+				</div>
 			</div>
-		</div>
+		</>
 	)
 }
