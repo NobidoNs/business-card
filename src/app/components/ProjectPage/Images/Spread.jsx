@@ -61,13 +61,21 @@ export function SpreadImage({ onChange }) {
 				/>
 			</div>
 			<Image
-				className='object-fill md:hover:drop-shadow-[0_0_0.5rem_#60a5fa] rounded-3xl z-20 border-2 border-zinc-500 cursor-pointer'
+				className='object-fill md:hover:drop-shadow-[0_0_0.5rem_#60a5fa] rounded-3xl z-20 border-2 border-zinc-500 cursor-pointer hidden md:block'
 				src='/Spread/1.png'
 				alt='Spread'
 				fill={true}
 				onMouseMove={handleMouseMove}
 				onMouseLeave={handleMouseLeave}
 				style={{ ...style, transition: 'transform 0.1s' }}
+				onClick={onChange}
+			/>
+			<Image
+				className='object-fill rounded-3xl z-20 border-2 border-zinc-500 cursor-pointer md:hidden'
+				src='/Spread/phone.png'
+				alt='Spread'
+				fill={true}
+				style={{ ...style }}
 				onClick={onChange}
 			/>
 		</div>

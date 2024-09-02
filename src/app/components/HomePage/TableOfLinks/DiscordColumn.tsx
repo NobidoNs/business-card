@@ -7,7 +7,7 @@ export function DiscordColumn() {
 		<div className='columns-1 select-none'>
 			<div
 				className='flex justify-center md:max-lg:flex px-5 py-4 select-none group transition-colors
-				rounded-full border border-transparent bg-gradient-to-r from-fuchsia-400/70 to-blue-600/70
+				rounded-full border border-transparent bg-gradient-to-tr from-blue-600/70 to-fuchsia-400/70
 				hover:shadow-lg hover:shadow-cyan-500/50 hover:border-neutral-700 hover:bg-neutral-800/30 
 				bg-neutral-800/30 border-neutral-700 md:bg-transparent md:border-transparent md:from-transparent'
 			>

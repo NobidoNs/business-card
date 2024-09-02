@@ -9,7 +9,7 @@ export default function ContactPage() {
 		<div className='flex md:h-svh w-full flex-col items-center justify-between bg-local"'>
 			<div className='flex h-full md:h-auto md:pt-40 w-full flex-col items-center justify-between bg-local pt-5'>
 				<div
-					className="select-none relative z-[-1] flex place-items-center before:absolute before:h-[300px]
+					className="select-none relative z-[1] flex place-items-center before:absolute before:h-[300px]
 						before:w-full before:-translate-x-1/4 before:rounded-full before:bg-gradient-to-br before:from-transparent
 						before:to-blue-700  before:blur-2xl before:content-[''] before:opacity-30
 							after:absolute after:-z-20 after:h-[180px] after:w-full after:-translate-x-1/4 after:bg-gradient-conic

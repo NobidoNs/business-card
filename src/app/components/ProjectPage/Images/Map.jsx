@@ -61,13 +61,21 @@ export function MapImage({ onChange }) {
 				/>
 			</div>
 			<Image
-				className='object-fill md:hover:drop-shadow-[0_0_0.5rem_#60a5fa] rounded-3xl z-20 border-2 border-zinc-500 cursor-pointer'
-				src='/map.png'
+				className='object-fill md:hover:drop-shadow-[0_0_0.5rem_#60a5fa] rounded-3xl z-20 border-2 border-zinc-500 cursor-pointer hidden md:block'
+				src='/Map/map.png'
 				alt='Map'
 				fill={true}
 				onMouseMove={handleMouseMove}
 				onMouseLeave={handleMouseLeave}
 				style={{ ...style, transition: 'transform 0.1s' }}
+				onClick={onChange}
+			/>
+			<Image
+				className='object-fill rounded-3xl z-20 border-2 border-zinc-500 cursor-pointer md:hidden'
+				src='/Map/map.webp'
+				alt='Map'
+				fill={true}
+				style={{ ...style }}
 				onClick={onChange}
 			/>
 		</div>
