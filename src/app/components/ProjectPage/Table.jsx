@@ -32,7 +32,7 @@ export default function TableProjects() {
 		setM_visible(false)
 		setS_visible(!s_visible)
 	}
-
+	// aaa
 	return (
 		<>
 			<div className='md:grid md:grid-rows-2 md:grid-cols-3 w-full static z-10 hidden md:block'>
