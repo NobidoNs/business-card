@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import ProjectLink from '../../components/HomePage/ProjectLink'
 import { GmailColumn } from '../../components/HomePage/TableOfLinks/GmailColumn'
 import { GitColumn } from '../../components/HomePage/TableOfLinks/GitColumn'
@@ -16,13 +15,12 @@ export default function ContactPage() {
 						after:blur-2xl after:content-[''] after:from-sky-900 after:via-[#0141ff] after:opacity-40
 							md:after:translate-x-1/3 md:before:-translate-x-1/2 "
 				>
-					<Image
+					<img
 						className='relative dark:drop-shadow-[0_0_0.3rem_#ffffff70]'
 						src='/Main/header.png'
-						alt='Next.js Logo'
 						width={300}
 						height={40}
-						priority
+						loading='eager'
 					/>
 				</div>
 

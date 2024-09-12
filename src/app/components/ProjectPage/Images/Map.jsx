@@ -35,7 +35,7 @@ export function MapImage({ onChange }) {
 	}
 
 	return (
-		<div className='w-full h-64 relative'>
+		<div className='w-full h-auto relative'>
 			<div
 				className='w-full h-64 absolute z-30 rounded-3xl hide md:block'
 				style={{
@@ -60,16 +60,18 @@ export function MapImage({ onChange }) {
 					}}
 				/>
 			</div>
-			<Image
-				className='object-fill md:hover:drop-shadow-[0_0_0.5rem_#60a5fa] rounded-3xl z-20 border-2 border-zinc-500 cursor-pointer hidden md:block'
+			{/* <div className='object-fill md:hover:drop-shadow-[0_0_0.5rem_#60a5fa] rounded-3xl z-20 border-2 border-zinc-500 cursor-pointer hidden md:block'> */}
+			<img
+				className='absolute object-fill md:hover:drop-shadow-[0_0_0.5rem_#60a5fa] rounded-3xl z-20 border-2 border-zinc-500 cursor-pointer hidden md:block'
 				src='/Map/map.png'
 				alt='Map'
 				fill={true}
 				onMouseMove={handleMouseMove}
 				onMouseLeave={handleMouseLeave}
-				style={{ ...style, transition: 'transform 0.1s' }}
+				style={{ ...style, transition: 'transform 0.1s', zIndex: 20 }}
 				onClick={onChange}
 			/>
+			{/* </div> */}
 			<Image
 				className='object-fill rounded-3xl z-20 border-2 border-zinc-500 cursor-pointer md:hidden'
 				src='/Map/map.webp'

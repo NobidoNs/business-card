@@ -1,7 +1,5 @@
 'use client'
 
-import Image from 'next/image'
-
 export function DiscordColumn() {
 	return (
 		<div className='columns-1 select-none'>
@@ -29,14 +27,12 @@ export function DiscordColumn() {
 					href='https://discordapp.com/users/608896883271663645'
 					target='_blank'
 				>
-					<Image
+					<img
 						className='object-fill hover:drop-shadow-[0_0_0.5rem_#60a5fa]'
 						src='/Main/Discord3D.png'
-						// src=''
-						alt='Next.js Logo'
 						width={128}
 						height={128}
-						priority
+						loading='eager'
 					/>
 				</a>
 			</div>

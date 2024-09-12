@@ -1,7 +1,5 @@
 'use client'
 
-import Image from 'next/image'
-
 export function GitColumn() {
 	return (
 		<div className='columns-1 select-none'>
@@ -26,13 +24,12 @@ export function GitColumn() {
 			</div>
 			<div className='flex justify-center md:max-lg:flex pt-2'>
 				<a href='https://github.com/NobidoNs' target='_blank'>
-					<Image
+					<img
 						className='object-fill hover:drop-shadow-[0_0_0.5rem_#60a5fa]'
 						src='/Main/github-2.png'
-						alt='Next.js Logo'
 						width={128}
 						height={128}
-						priority
+						loading='eager'
 					/>
 				</a>
 			</div>
