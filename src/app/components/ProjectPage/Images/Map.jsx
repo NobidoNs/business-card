@@ -1,7 +1,6 @@
 'use client'
 
 import React, { useState } from 'react'
-import Image from 'next/image'
 
 export function MapImage({ onChange }) {
 	const [style, setStyle] = useState({ transform: '' })
@@ -37,7 +36,7 @@ export function MapImage({ onChange }) {
 	return (
 		<div className='w-full h-auto relative'>
 			<div
-				className='w-full h-64 absolute z-30 rounded-3xl hide md:block'
+				className='w-full h-full absolute z-30 rounded-3xl hidden md:block'
 				style={{
 					...style,
 					transition: 'transform 0.1s',
@@ -60,19 +59,17 @@ export function MapImage({ onChange }) {
 					}}
 				/>
 			</div>
-			{/* <div className='object-fill md:hover:drop-shadow-[0_0_0.5rem_#60a5fa] rounded-3xl z-20 border-2 border-zinc-500 cursor-pointer hidden md:block'> */}
 			<img
-				className='absolute object-fill md:hover:drop-shadow-[0_0_0.5rem_#60a5fa] rounded-3xl z-20 border-2 border-zinc-500 cursor-pointer hidden md:block'
+				className='relative object-fill md:hover:drop-shadow-[0_0_0.5rem_#60a5fa] rounded-3xl z-20 border-2 border-zinc-500 cursor-pointer hidden md:block'
 				src='/Map/map.png'
 				alt='Map'
 				fill={true}
 				onMouseMove={handleMouseMove}
 				onMouseLeave={handleMouseLeave}
-				style={{ ...style, transition: 'transform 0.1s', zIndex: 20 }}
+				style={{ ...style, transition: 'transform 0.1s' }}
 				onClick={onChange}
 			/>
-			{/* </div> */}
-			<Image
+			<img
 				className='object-fill rounded-3xl z-20 border-2 border-zinc-500 cursor-pointer md:hidden'
 				src='/Map/map.webp'
 				alt='Map'

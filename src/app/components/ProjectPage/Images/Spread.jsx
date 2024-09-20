@@ -1,7 +1,6 @@
 'use client'
 
 import React, { useState } from 'react'
-import Image from 'next/image'
 
 export function SpreadImage({ onChange }) {
 	const [style, setStyle] = useState({ transform: '' })
@@ -35,9 +34,9 @@ export function SpreadImage({ onChange }) {
 	}
 
 	return (
-		<div className='w-full h-64 relative'>
+		<div className='w-full h-auto relative'>
 			<div
-				className='w-full h-64 absolute z-30 rounded-3xl hidden md:block'
+				className='w-full h-full absolute z-30 rounded-3xl hidden md:block'
 				style={{
 					...style,
 					transition: 'transform 0.1s',
@@ -60,9 +59,9 @@ export function SpreadImage({ onChange }) {
 					}}
 				/>
 			</div>
-			<Image
-				className='object-fill md:hover:drop-shadow-[0_0_0.5rem_#60a5fa] rounded-3xl z-20 border-2 border-zinc-500 cursor-pointer hidden md:block'
-				src='/Spread/1.png'
+			<img
+				className='relative object-fill md:hover:drop-shadow-[0_0_0.5rem_#60a5fa] rounded-3xl z-20 border-2 border-zinc-500 cursor-pointer hidden md:block'
+				src='/Spread/spread.png'
 				alt='Spread'
 				fill={true}
 				onMouseMove={handleMouseMove}
@@ -70,7 +69,7 @@ export function SpreadImage({ onChange }) {
 				style={{ ...style, transition: 'transform 0.1s' }}
 				onClick={onChange}
 			/>
-			<Image
+			<img
 				className='object-fill rounded-3xl z-20 border-2 border-zinc-500 cursor-pointer md:hidden'
 				src='/Spread/phone.png'
 				alt='Spread'

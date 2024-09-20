@@ -35,9 +35,9 @@ export function TanksImage({ onChange }) {
 	}
 
 	return (
-		<div className='w-full h-64 relative'>
+		<div className='w-full h-auto relative'>
 			<div
-				className='w-full h-64 absolute z-30 rounded-3xl hidden md:block'
+				className='w-full h-full absolute z-30 rounded-3xl hidden md:block'
 				style={{
 					...style,
 					transition: 'transform 0.1s',
@@ -60,8 +60,8 @@ export function TanksImage({ onChange }) {
 					}}
 				/>
 			</div>
-			<Image
-				className='object-fill md:hover:drop-shadow-[0_0_0.5rem_#60a5fa] rounded-3xl z-20 border-2 border-zinc-500 cursor-pointer hidden md:block'
+			<img
+				className='relative object-fill md:hover:drop-shadow-[0_0_0.5rem_#60a5fa] rounded-3xl z-20 border-2 border-zinc-500 cursor-pointer hidden md:block'
 				src='/Tanks/icon.png'
 				alt='Tanks'
 				fill={true}
@@ -70,7 +70,7 @@ export function TanksImage({ onChange }) {
 				style={{ ...style, transition: 'transform 0.1s' }}
 				onClick={onChange}
 			/>
-			<Image
+			<img
 				className='object-fill rounded-3xl z-20 border-2 border-zinc-500 cursor-pointer md:hidden'
 				src='/Tanks/icon.png'
 				alt='Tanks'

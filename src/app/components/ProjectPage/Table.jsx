@@ -49,15 +49,15 @@ export default function TableProjects() {
 			<div className='flex flex-row w-full z-10 leading-6 space-x-4 '>
 				<div className='basis-1/3 select-none p-5 rounded-l'>
 					<TanksImage onChange={changeT_visible} />
-					{/* <TanksBG vis={t_visible} /> */}
+					<TanksBG vis={t_visible} />
 				</div>
 				<div className='basis-1/3 select-none p-5 rounded-l'>
 					<MapImage onChange={() => changeM_visible(!m_visible)} />
-					{/* <MapBG vis={m_visible} /> */}
+					<MapBG vis={m_visible} />
 				</div>
 				<div className='basis-1/3 select-none p-5 py-5 rounded-l'>
 					<SpreadImage onChange={() => changeS_visible(!s_visible)} />
-					{/* <SpreadBG vis={s_visible} /> */}
+					<SpreadBG vis={s_visible} />
 				</div>
 			</div>
 
