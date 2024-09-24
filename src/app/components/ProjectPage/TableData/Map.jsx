@@ -5,7 +5,7 @@ export default function MapInfo({ vis }) {
 		<>
 			{vis && (
 				<div
-					className='hidden md:block absolute z-[-1] md:h-96 right-2 left-2 border-2 rounded-lg pl-2 bg-blue opacity-25 z-10 select-none view-animate-[--subjectReveal] animate-slide-in-top'
+					className='hidden md:block absolute z-[-1] h-96 right-2 left-2 border-2 rounded-lg pl-2 bg-blue opacity-25 select-none view-animate-[--subjectReveal] animate-slide-in-top'
 					style={{
 						backgroundImage: 'linear-gradient(0deg, #65d3ba,#2cfab8,#3eef74)',
 					}}

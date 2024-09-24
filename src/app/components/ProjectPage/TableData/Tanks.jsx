@@ -10,7 +10,7 @@ export default function TanksInfo({ vis }) {
 		<>
 			{vis && (
 				<div
-					className='hidden md:block absolute z-[-1] md:h-96 right-2 left-2 border-2 md:rounded-tl-none rounded-lg bg-blue opacity-15 z-10 select-none view-animate-[--subjectReveal] animate-slide-in-top'
+					className='hidden md:block absolute z-[-1] h-96 right-2 left-2 border-2 rounded-tl-none rounded-lg bg-blue opacity-15 select-none view-animate-[--subjectReveal] animate-slide-in-top'
 					style={{
 						backgroundImage:
 							'linear-gradient(0deg, #025fa7,#1682d4,#00b0d0,#09d3f6,#42e3ff)',
