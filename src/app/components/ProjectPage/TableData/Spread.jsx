@@ -15,7 +15,7 @@ export default function SpreadInfo({ vis }) {
 		<>
 			{vis && (
 				<div
-					className='hidden md:block absolute z-[-1] right-2 left-2 h-96 border-2 rounded-tr-none rounded-lg pl-2 bg-blue opacity-25 select-none view-animate-[--subjectReveal] animate-slide-in-top'
+					className='hidden md:block absolute z-[-1] right-2 left-2 h-full border-2 rounded-tr-none rounded-lg pl-2 bg-blue opacity-25 select-none view-animate-[--subjectReveal] animate-slide-in-top'
 					style={{
 						backgroundImage: 'linear-gradient(0deg, #e97084,#d2b1a1)',
 					}}
@@ -23,7 +23,7 @@ export default function SpreadInfo({ vis }) {
 			)}
 			{vis && (
 				<>
-					<div className='hidden md:grid md:grid-cols-3 md:grid-rows-3 md:h-full px-4 gap-5 md:opacity-100 z-40'>
+					<div className='hidden md:grid md:grid-cols-3 md:grid-rows-2 md:h-full px-4 gap-5 md:opacity-100 z-40'>
 						<div className='z-40 view-animate-[--subjectReveal] animate-slide-in-top'>
 							<p className='text-wight text-center pr-6 pt-4 '>
 								Spread - игра на клеточном поле.
@@ -40,24 +40,24 @@ export default function SpreadInfo({ vis }) {
 								Цель игры захвотить все поля соперника.
 							</p>
 						</div>
-						<div className='relative row-span-2 opacity-100 rounded-3xl z-40 view-animate-[--subjectReveal] animate-blurred-fade-in'>
-							<Image
+						<div className='relative opacity-100 rounded-3xl z-40 view-animate-[--subjectReveal] animate-blurred-fade-in'>
+							<img
 								className='object-fill rounded-3xl z-20 opacity-100 border-2 border-sky-400'
 								src='/Spread/emp.png'
 								alt=''
 								fill={true}
 							/>
 						</div>
-						<div className='relative row-span-2 z-40 view-animate-[--subjectReveal] animate-blurred-fade-in'>
-							<Image
+						<div className='relative z-40 view-animate-[--subjectReveal] animate-blurred-fade-in'>
+							<img
 								className='object-fill rounded-3xl z-20 border-2 border-fuchsia-600'
 								src='/Spread/2.png'
 								alt=''
 								fill={true}
 							/>
 						</div>
-						<div className='relative row-span-2 z-40 view-animate-[--subjectReveal] animate-blurred-fade-in'>
-							<Image
+						<div className='relative z-40 view-animate-[--subjectReveal] animate-blurred-fade-in'>
+							<img
 								className='object-fill rounded-3xl z-20 border-2 border-emerald-400'
 								src='/Spread/3.png'
 								alt=''
@@ -72,7 +72,7 @@ export default function SpreadInfo({ vis }) {
 								Spread - игра на клеточном поле.
 							</p>
 						</div>
-						<div className='relative row-span-2 z-40 view-animate-[--subjectReveal] animate-blurred-fade-in'>
+						<div className='relative z-40 view-animate-[--subjectReveal] animate-blurred-fade-in'>
 							<Image
 								className='object-fill rounded-3xl z-20 opacity-100 border-2 border-sky-400'
 								src='/Spread/empP.png'
@@ -86,7 +86,7 @@ export default function SpreadInfo({ vis }) {
 								вновь становится пустым, но захватывает соседние.
 							</p>
 						</div>
-						<div className='relative row-span-2 z-40 view-animate-[--subjectReveal] animate-blurred-fade-in'>
+						<div className='relative z-40 view-animate-[--subjectReveal] animate-blurred-fade-in'>
 							<Image
 								className='object-fill rounded-3xl z-20 opacity-100 border-2 border-fuchsia-600'
 								src='/Spread/2P.png'
@@ -99,7 +99,7 @@ export default function SpreadInfo({ vis }) {
 								Цель игры захвотить все поля соперника.
 							</p>
 						</div>
-						<div className='relative row-span-2 z-40 view-animate-[--subjectReveal] animate-blurred-fade-in'>
+						<div className='relative z-40 view-animate-[--subjectReveal] animate-blurred-fade-in'>
 							<Image
 								className='object-fill rounded-3xl z-20 opacity-100 border-2 border-emerald-400'
 								src='/Spread/3P.png'
