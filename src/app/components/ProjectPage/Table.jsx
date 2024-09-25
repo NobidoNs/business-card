@@ -35,7 +35,7 @@ export default function TableProjects() {
 
 	return (
 		<>
-			<div className='flex flex-row w-full z-10 leading-6'>
+			<div className='flex-row w-full z-10 hidden md:flex'>
 				<div className='basis-1/3 select-none p-5 rounded-l relative'>
 					<TanksImage onChange={changeT_visible} />
 					<TanksBG vis={t_visible} />
@@ -50,7 +50,7 @@ export default function TableProjects() {
 				</div>
 			</div>
 
-			<div className='px-2 min-h-max relative pb-5'>
+			<div className='px-2 min-h-max relative pb-5 hidden md:block'>
 				<TanksInfo vis={t_visible} />
 				<MapInfo vis={m_visible} />
 				<SpreadInfo vis={s_visible} />
