@@ -1,0 +1,10 @@
+.custom-scrollbar {
+	width: 10%;
+	height: 300px;
+	overflow-y: scroll;
+	scrollbar-width: thin;
+}
+
+.scroll-content {
+	height: 1000px; /* Example content height */
+}

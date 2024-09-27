@@ -5,7 +5,7 @@ import { DiscordColumn } from '../../components/HomePage/TableOfLinks/DiscordCol
 
 export default function ContactPage() {
 	return (
-		<div className='flex md:h-svh w-full flex-col items-center justify-between bg-local"'>
+		<div className='md:h-svh w-full flex-col items-center justify-between bg-local'>
 			<div className='flex h-full md:h-auto md:pt-40 w-full flex-col items-center justify-between bg-local pt-5'>
 				<div
 					className="select-none relative z-[1] flex place-items-center before:absolute before:h-[300px]
