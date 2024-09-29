@@ -1,7 +1,6 @@
 'use client'
 
 import React, { useState } from 'react'
-import Image from 'next/image'
 
 export default function TanksInfo({ vis }) {
 	// const [visible, setVisible] = useState(Data.tanks)
@@ -62,7 +61,7 @@ export default function TanksInfo({ vis }) {
 						</div>
 					</div>
 
-					<div className='hidden grid grid-rows-9 px-4 grid-cols-1 h-full pb-5  z-40 md:hidden border border-stone-500 rounded-lg'>
+					{/* <div className='hidden grid grid-rows-9 px-4 grid-cols-1 h-full pb-5  z-40 md:hidden border border-stone-500 rounded-lg'>
 						<div className='z-40 view-animate-[--subjectReveal] animate-slide-in-top'>
 							<p className='text-wight text-center pt-4 '>
 								Это - монгопользовательская игра.
@@ -103,7 +102,7 @@ export default function TanksInfo({ vis }) {
 								fill={true}
 							/>
 						</div>
-					</div>
+					</div> */}
 				</>
 			)}
 		</>

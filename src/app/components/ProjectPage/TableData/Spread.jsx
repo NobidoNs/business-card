@@ -66,7 +66,7 @@ export default function SpreadInfo({ vis }) {
 						</div>
 					</div>
 
-					<div className='grid grid-rows-9 px-4 grid-cols-1 h-full pb-5  z-40 md:hidden border border-stone-500 rounded-lg'>
+					{/* <div className='grid grid-rows-9 px-4 grid-cols-1 h-full pb-5  z-40 md:hidden border border-stone-500 rounded-lg'>
 						<div className='z-40 view-animate-[--subjectReveal] animate-slide-in-top'>
 							<p className='text-wight text-center pt-4 '>
 								Spread - игра на клеточном поле.
@@ -107,7 +107,7 @@ export default function SpreadInfo({ vis }) {
 								fill={true}
 							/>
 						</div>
-					</div>
+					</div> */}
 				</>
 			)}
 		</>

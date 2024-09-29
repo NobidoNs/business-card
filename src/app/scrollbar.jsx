@@ -1,36 +1,33 @@
 import React from 'react'
-import Image from 'next/image'
 import { Swiper, SwiperSlide } from 'swiper/react'
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules'
+
+import { TanksImage } from '../app/components/ProjectPage/Images/Tanks'
+import { MapImage } from '../app/components/ProjectPage/Images/Map'
+import { SpreadImage } from '../app/components/ProjectPage/Images/Spread'
+
 import 'swiper/css'
 
-export default function ImageSwiper() {
+export default function ImageSwiper({ onChange }) {
 	// const images = ['/header.png', '/header.png', '/header.png']
 
 	return (
 		<Swiper
 			// modules={[Navigation, Pagination, Scrollbar, A11y]}
 			spaceBetween={50}
-			slidesPerView={3}
+			slidesPerView={1.2}
 			// navigation
 			// pagination={{ clickable: true }}
 			// scrollbar={{ draggable: true }}
 		>
 			<SwiperSlide>
-				slide1111
-				{/* <Image
-					className='relative dark:drop-shadow-[0_0_0.3rem_#ffffff70]'
-					src='/Tanks/Tanks.png'
-					alt='Next.js Logo'
-					width={300}
-					height={40}
-					priority
-				/> */}
+				<TanksImage />
 			</SwiperSlide>
-			<SwiperSlide>Slide 22</SwiperSlide>
-			<SwiperSlide>Slide 3</SwiperSlide>
-			<SwiperSlide>Slide 22</SwiperSlide>
-			<SwiperSlide>Slide 3</SwiperSlide>
+			<SwiperSlide>
+				<MapImage />
+			</SwiperSlide>
+			<SwiperSlide>
+				<SpreadImage />
+			</SwiperSlide>
 		</Swiper>
 	)
 }
