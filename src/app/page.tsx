@@ -5,7 +5,7 @@ import Footer from './components/footer'
 
 export default function Home() {
 	return (
-		<main className='flex w-full min-h-9 flex-col items-center justify-between bg-local '>
+		<main className='flex w-full min-h-9 flex-col items-center justify-between bg-local'>
 			<ContactPage />
 			<ProjectPage />
 			<Decorations />

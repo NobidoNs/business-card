@@ -15,6 +15,8 @@ export default function ImageSwiper({ onChange }) {
 			// modules={[Navigation, Pagination, Scrollbar, A11y]}
 			spaceBetween={50}
 			slidesPerView={1.2}
+			centeredSlides={true}
+			loop={true}
 			// navigation
 			// pagination={{ clickable: true }}
 			// scrollbar={{ draggable: true }}

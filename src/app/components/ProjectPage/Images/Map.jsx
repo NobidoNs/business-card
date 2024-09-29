@@ -71,7 +71,7 @@ export function MapImage({ onChange }) {
 			/>
 			<img
 				className='object-fill rounded-3xl z-20 border-2 border-zinc-500 cursor-pointer md:hidden'
-				src='/Map/map.webp'
+				src='/Map/map.png'
 				alt='Map'
 				fill={true}
 				style={{ ...style }}
