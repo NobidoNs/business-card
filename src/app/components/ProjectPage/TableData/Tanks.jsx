@@ -40,7 +40,7 @@ export default function TanksInfo({ vis }) {
 								className='object-fill rounded-3xl z-20  border-2 border-sky-400'
 								src='/Tanks/Tanks.png'
 								alt=''
-								fill={true}
+								fill={'true'}
 							/>
 						</div>
 						<div className='relative row-span-2 z-40 view-animate-[--subjectReveal] animate-blurred-fade-in'>
@@ -48,7 +48,7 @@ export default function TanksInfo({ vis }) {
 								className='object-fill rounded-3xl z-20 border-2 border-fuchsia-600'
 								src='/Tanks/TanksTree.png'
 								alt=''
-								fill={true}
+								fill={'true'}
 							/>
 						</div>
 						<div className='relative row-span-2 z-40 view-animate-[--subjectReveal] animate-blurred-fade-in'>
@@ -56,23 +56,23 @@ export default function TanksInfo({ vis }) {
 								className='object-fill rounded-3xl z-20 border-2 border-emerald-400'
 								src='/Tanks/TanksGun.png'
 								alt=''
-								fill={true}
+								fill={'true'}
 							/>
 						</div>
 					</div>
 
-					{/* <div className='hidden grid grid-rows-9 px-4 grid-cols-1 h-full pb-5  z-40 md:hidden border border-stone-500 rounded-lg'>
+					<div className='md:hidden grid grid-rows-9 px-4 grid-cols-1 h-full pb-5  z-40 md:hidden rounded-lg'>
 						<div className='z-40 view-animate-[--subjectReveal] animate-slide-in-top'>
 							<p className='text-wight text-center pt-4 '>
 								Это - монгопользовательская игра.
 							</p>
 						</div>
 						<div className='relative row-span-2 z-40 view-animate-[--subjectReveal] animate-blurred-fade-in'>
-							<Image
+							<img
 								className='object-fill rounded-3xl z-20  border-2 border-sky-400'
 								src='/Tanks/Tanks.png'
 								alt=''
-								fill={true}
+								fill={'true'}
 							/>
 						</div>
 						<div className='z-40 view-animate-[--subjectReveal] animate-slide-in-top'>
@@ -82,11 +82,11 @@ export default function TanksInfo({ vis }) {
 							</p>
 						</div>
 						<div className='relative row-span-2 z-40 view-animate-[--subjectReveal] animate-blurred-fade-in'>
-							<Image
+							<img
 								className='object-fill rounded-3xl z-20  border-2 border-fuchsia-600'
 								src='/Tanks/TanksTree.png'
 								alt=''
-								fill={true}
+								fill={'true'}
 							/>
 						</div>
 						<div className='z-40 view-animate-[--subjectReveal] animate-slide-in-top'>
@@ -95,14 +95,14 @@ export default function TanksInfo({ vis }) {
 							</p>
 						</div>
 						<div className='relative row-span-2 z-40 view-animate-[--subjectReveal] animate-blurred-fade-in'>
-							<Image
+							<img
 								className='object-fill rounded-3xl z-20  border-2 border-emerald-400'
 								src='/Tanks/TanksGun.png'
 								alt=''
-								fill={true}
+								fill={'true'}
 							/>
 						</div>
-					</div> */}
+					</div>
 				</>
 			)}
 		</>

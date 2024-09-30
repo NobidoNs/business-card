@@ -7,7 +7,7 @@ import { SpreadImage } from '../app/components/ProjectPage/Images/Spread'
 
 import 'swiper/css'
 
-export default function ImageSwiper({ onChange }) {
+export default function ImageSwiper({ TChange, MChange, SChange }) {
 	// const images = ['/header.png', '/header.png', '/header.png']
 
 	return (
@@ -22,13 +22,23 @@ export default function ImageSwiper({ onChange }) {
 			// scrollbar={{ draggable: true }}
 		>
 			<SwiperSlide>
-				<TanksImage />
+				<TanksImage onChange={TChange} />
 			</SwiperSlide>
 			<SwiperSlide>
-				<MapImage />
+				<MapImage onChange={MChange} />
 			</SwiperSlide>
 			<SwiperSlide>
-				<SpreadImage />
+				<SpreadImage onChange={SChange} />
+			</SwiperSlide>
+			{/* duplicate */}
+			<SwiperSlide>
+				<TanksImage onChange={TChange} />
+			</SwiperSlide>
+			<SwiperSlide>
+				<MapImage onChange={MChange} />
+			</SwiperSlide>
+			<SwiperSlide>
+				<SpreadImage onChange={SChange} />
 			</SwiperSlide>
 		</Swiper>
 	)

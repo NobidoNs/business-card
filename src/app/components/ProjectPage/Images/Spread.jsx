@@ -63,7 +63,7 @@ export function SpreadImage({ onChange }) {
 				className='relative object-fill md:hover:drop-shadow-[0_0_0.5rem_#60a5fa] rounded-3xl z-20 border-2 border-zinc-500 cursor-pointer hidden md:block'
 				src='/Spread/spread.png'
 				alt='Spread'
-				fill={true}
+				fill={'true'}
 				onMouseMove={handleMouseMove}
 				onMouseLeave={handleMouseLeave}
 				style={{ ...style, transition: 'transform 0.1s' }}
@@ -73,7 +73,7 @@ export function SpreadImage({ onChange }) {
 				className='object-fill rounded-3xl z-20 border-2 border-zinc-500 cursor-pointer md:hidden'
 				src='/Spread/spread.png'
 				alt='Spread'
-				fill={true}
+				fill={'true'}
 				style={{ ...style }}
 				onClick={onChange}
 			/>
