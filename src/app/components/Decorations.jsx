@@ -1,7 +1,6 @@
 export default function Decorations() {
 	return (
 		<>
-			{/* <div><img src='/SPACE.gif' alt='GIF Image' /></div> */}
 			<div
 				className="select-none z-[-2] md:absolute
 						h-1/2 w-1/3 bg-gradient-conic rounded-full
@@ -9,8 +8,8 @@ export default function Decorations() {
 					-left-40 -bottom-32"
 			/>
 			<div
-				className="select-none z-[-2] absolute
-					h-full w-full bg-gradient-to-t
+				className="select-none z-[-2] md:absolute
+					h-full w-full bg-gradient-to-t 
 				blur-2xl content-[''] from-violet-500 to-LB opacity-50
 				right-0 -bottom-full md:opacity-30"
 			/>

@@ -65,11 +65,9 @@ export default function TableProjects() {
 				{/* Data */}
 				<div className='select-none p-5 rounded-l'>
 					<TanksInfo vis={t_visible} />
-				</div>
-				<div className='select-none p-5 rounded-l'>
+
 					<MapInfo vis={m_visible} />
-				</div>
-				<div className='select-none p-5 py-5 rounded-l'>
+
 					<SpreadInfo vis={s_visible} />
 				</div>
 			</div>
@@ -90,14 +88,14 @@ export default function TableProjects() {
 				right-0 -bottom-[2000px]"
 				/>
 			)} */}
-			{(t_visible || s_visible || m_visible) && (
+			{/* {(t_visible || s_visible || m_visible) && (
 				<div
 					className="select-none z-[-1] absolute md:hidden
 					h-1/2 w-full bg-gradient-to-b
 				blur-2xl content-[''] from-LB to-violet-500 opacity-30
 				right-0 -bottom-[150%] sm:-bottom-[220%] sm:h-[120%] min-[470px]:h-[80%] min-[470px]:-bottom-[180%]"
 				/>
-			)}
+			)} */}
 		</>
 	)
 }

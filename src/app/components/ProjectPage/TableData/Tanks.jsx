@@ -1,10 +1,6 @@
 'use client'
 
-import React, { useState } from 'react'
-
 export default function TanksInfo({ vis }) {
-	// const [visible, setVisible] = useState(Data.tanks)
-
 	return (
 		<>
 			{vis && (
@@ -61,7 +57,7 @@ export default function TanksInfo({ vis }) {
 						</div>
 					</div>
 
-					<div className='md:hidden grid grid-rows-9 px-4 grid-cols-1 h-full pb-5  z-40 md:hidden rounded-lg'>
+					<div className='md:hidden grid grid-rows-9 px-4 grid-cols-1 h-full pb-5 z-40 md:hidden rounded-lg'>
 						<div className='z-40 view-animate-[--subjectReveal] animate-slide-in-top'>
 							<p className='text-wight text-center pt-4 '>
 								Это - монгопользовательская игра.
@@ -69,7 +65,7 @@ export default function TanksInfo({ vis }) {
 						</div>
 						<div className='relative row-span-2 z-40 view-animate-[--subjectReveal] animate-blurred-fade-in'>
 							<img
-								className='object-fill rounded-3xl z-20  border-2 border-sky-400'
+								className='object-fill rounded-3xl z-20 border-2 border-sky-400'
 								src='/Tanks/Tanks.png'
 								alt=''
 								fill={'true'}
@@ -83,7 +79,7 @@ export default function TanksInfo({ vis }) {
 						</div>
 						<div className='relative row-span-2 z-40 view-animate-[--subjectReveal] animate-blurred-fade-in'>
 							<img
-								className='object-fill rounded-3xl z-20  border-2 border-fuchsia-600'
+								className='object-fill rounded-3xl z-20 border-2 border-fuchsia-600'
 								src='/Tanks/TanksTree.png'
 								alt=''
 								fill={'true'}
@@ -96,7 +92,7 @@ export default function TanksInfo({ vis }) {
 						</div>
 						<div className='relative row-span-2 z-40 view-animate-[--subjectReveal] animate-blurred-fade-in'>
 							<img
-								className='object-fill rounded-3xl z-20  border-2 border-emerald-400'
+								className='object-fill rounded-3xl z-20 border-2 border-emerald-400'
 								src='/Tanks/TanksGun.png'
 								alt=''
 								fill={'true'}

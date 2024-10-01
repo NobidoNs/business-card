@@ -1,5 +1,3 @@
-import Image from 'next/image'
-
 export default function MapInfo({ vis }) {
 	return (
 		<>
@@ -35,7 +33,7 @@ export default function MapInfo({ vis }) {
 								className='object-fill rounded-3xl z-20  border-2 border-sky-400'
 								src='/Map/1.png'
 								alt=''
-								fill={true}
+								fill={'true'}
 							/>
 						</div>
 						<div className='relative row-span-2 z-40 view-animate-[--subjectReveal] animate-blurred-fade-in'>
@@ -43,7 +41,7 @@ export default function MapInfo({ vis }) {
 								className='object-fill rounded-3xl z-20 border-2 border-fuchsia-600'
 								src='/Map/2.png'
 								alt=''
-								fill={true}
+								fill={'true'}
 							/>
 						</div>
 						<div className='relative row-span-2 z-40 view-animate-[--subjectReveal] animate-blurred-fade-in'>
@@ -51,23 +49,23 @@ export default function MapInfo({ vis }) {
 								className='object-fill rounded-3xl z-20 border-2 border-emerald-400'
 								src='/Map/3.png'
 								alt=''
-								fill={true}
+								fill={'true'}
 							/>
 						</div>
 					</div>
 
-					{/* <div className='grid grid-rows-9 px-4 grid-cols-1 h-full pb-5  z-40 md:hidden border border-stone-500 rounded-lg'>
+					<div className='md:hidden grid grid-rows-9 px-4 grid-cols-1 h-full pb-5 z-40 md:hidden rounded-lg'>
 						<div className='z-40 view-animate-[--subjectReveal] animate-slide-in-top'>
 							<p className='text-wight text-center pt-4 '>
 								Проект на базе яндекс карт.
 							</p>
 						</div>
-						<div className='relative z-40 view-animate-[--subjectReveal] animate-blurred-fade-in'>
-							<Image
+						<div className='relative row-span-2 z-40 view-animate-[--subjectReveal] animate-blurred-fade-in'>
+							<img
 								className='object-fill rounded-3xl z-20  border-2 border-sky-400'
 								src='/Map/1.png'
 								alt=''
-								fill={true}
+								fill={'true'}
 							/>
 						</div>
 						<div className='z-40 view-animate-[--subjectReveal] animate-slide-in-top'>
@@ -76,12 +74,12 @@ export default function MapInfo({ vis }) {
 								территорию и прокладывать маршрут в случайное место.
 							</p>
 						</div>
-						<div className='relative z-40 view-animate-[--subjectReveal] animate-blurred-fade-in'>
-							<Image
+						<div className='relative row-span-2 z-40 view-animate-[--subjectReveal] animate-blurred-fade-in'>
+							<img
 								className='object-fill rounded-3xl z-20  border-2 border-fuchsia-600'
 								src='/Map/2.png'
 								alt=''
-								fill={true}
+								fill={'true'}
 							/>
 						</div>
 						<div className='z-40 view-animate-[--subjectReveal] animate-slide-in-top'>
@@ -89,15 +87,15 @@ export default function MapInfo({ vis }) {
 								Задумывалось использовать, чтобы прогулки стали инререснее.
 							</p>
 						</div>
-						<div className='relative z-40 view-animate-[--subjectReveal] animate-blurred-fade-in'>
-							<Image
+						<div className='relative row-span-2 z-40 view-animate-[--subjectReveal] animate-blurred-fade-in'>
+							<img
 								className='object-fill rounded-3xl z-20  border-2 border-emerald-400'
 								src='/Map/3.png'
 								alt=''
-								fill={true}
+								fill={'true'}
 							/>
 						</div>
-					</div> */}
+					</div>
 				</>
 			)}
 		</>

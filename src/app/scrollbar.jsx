@@ -8,8 +8,6 @@ import { SpreadImage } from '../app/components/ProjectPage/Images/Spread'
 import 'swiper/css'
 
 export default function ImageSwiper({ TChange, MChange, SChange }) {
-	// const images = ['/header.png', '/header.png', '/header.png']
-
 	return (
 		<Swiper
 			// modules={[Navigation, Pagination, Scrollbar, A11y]}
