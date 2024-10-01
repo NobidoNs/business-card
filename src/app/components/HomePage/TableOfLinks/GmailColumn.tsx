@@ -18,7 +18,8 @@ export function GmailColumn() {
 					className='flex justify-center md:max-lg:flex px-5 py-4 select-none group transition-colors
 				rounded-full border border-transparent bg-gradient-to-r from-violet-400/70 to-fuchsia-500/70
 				hover:shadow-lg hover:shadow-cyan-500/50 hover:border-neutral-700 hover:bg-neutral-800/30 
-				bg-neutral-800/30 border-neutral-700 md:bg-transparent md:border-transparent md:from-transparent'
+				bg-neutral-800/30 border-neutral-700 md:bg-transparent md:border-transparent md:from-transparent
+				cursor-pointer'
 				>
 					<a target='_blank' rel='noopener noreferrer'>
 						<h2 className='md:mb-3 text-2xl text-center font-semibold'>
