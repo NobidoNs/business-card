@@ -33,7 +33,7 @@ export default function TableProjects() {
 		setM_visible(false)
 		setS_visible(!s_visible)
 	}
-	// aaa
+
 	return (
 		<>
 			<div className='flex-row w-full z-10 hidden md:flex'>

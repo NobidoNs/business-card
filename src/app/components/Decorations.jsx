@@ -13,12 +13,6 @@ export default function Decorations() {
 				blur-2xl content-[''] from-violet-500 to-LB opacity-50
 				right-0 -bottom-full md:opacity-30"
 			/>
-			{/* <div
-				className="select-none z-[-2] absolute md:hidden
-					h-full w-full bg-gradient-to-b
-				blur-2xl content-[''] from-violet-500 to-LB opacity-50
-				right-0 -bottom-[1400px]"
-			/> */}
 			<div
 				className="select-none z-[-2] absolute
 						sm:h-[500px] md:h-full h-96 w-96 md:w-1/3 rounded-full -bottom-10 sm:bottom-24 md:-bottom-80 blur-2xl

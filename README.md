@@ -1,11 +1,9 @@
-<!-- This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). -->
+This is a one-page portfolio site. It is written in Next js and can be a simple example of a site.
 
-## Getting Started
+## Launch
 
-First, run the development server:
+Run the development server with command:
 
-```bash
 npm run dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000] with your browser to see the result.
