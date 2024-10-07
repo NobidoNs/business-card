@@ -9,7 +9,7 @@ import SpreadInfo from './TableData/Spread'
 import TanksBG from './ImagesBG/Tanks'
 import MapBG from './ImagesBG/Map'
 import SpreadBG from './ImagesBG/Spread'
-import ScrollPrtBar from '../../scrollbar'
+import ScrollPrtBar from './scrollbar'
 
 export default function TableProjects() {
 	const [t_visible, setT_visible] = React.useState(false)
@@ -71,31 +71,6 @@ export default function TableProjects() {
 					<SpreadInfo vis={s_visible} />
 				</div>
 			</div>
-
-			{/* {(t_visible || s_visible || m_visible) && (
-				<div
-					className="select-none z-[-1] absolute md:hidden
-					h-full w-full bg-gradient-to-b
-				blur-2xl content-[''] from-LB to-violet-500 opacity-50
-				right-0 -bottom-[2500px]"
-				/>
-			)}
-			{(t_visible || s_visible || m_visible) && (
-				<div
-					className="select-none z-[-1] absolute md:hidden
-					h-full w-full bg-gradient-to-b
-				blur-2xl content-[''] from-LB to-violet-500 opacity-50
-				right-0 -bottom-[2000px]"
-				/>
-			)} */}
-			{/* {(t_visible || s_visible || m_visible) && (
-				<div
-					className="select-none z-[-1] absolute md:hidden
-					h-1/2 w-full bg-gradient-to-b
-				blur-2xl content-[''] from-LB to-violet-500 opacity-30
-				right-0 -bottom-[150%] sm:-bottom-[220%] sm:h-[120%] min-[470px]:h-[80%] min-[470px]:-bottom-[180%]"
-				/>
-			)} */}
 		</>
 	)
 }

@@ -54,13 +54,13 @@ export default function SpreadInfo({ vis }) {
 						</div>
 					</div>
 
-					<div className='md:hidden grid grid-rows-9 px-4 grid-cols-1 h-full pb-5 z-40 md:hidden rounded-lg'>
+					<div className='md:hidden px-4 h-full pb-5 z-40 md:hidden rounded-lg'>
 						<div className='z-40 view-animate-[--subjectReveal] animate-slide-in-top'>
-							<p className='text-wight text-center pt-4 '>
+							<p className='text-wight text-center pt-5 pb-2'>
 								Spread - игра на клеточном поле.
 							</p>
 						</div>
-						<div className='relative row-span-2 z-40 view-animate-[--subjectReveal] animate-blurred-fade-in'>
+						<div className='relative z-40 view-animate-[--subjectReveal] animate-blurred-fade-in pb-4'>
 							<img
 								className='object-fill rounded-3xl z-20  border-2 border-sky-400'
 								src='/Spread/emp.png'
@@ -69,12 +69,12 @@ export default function SpreadInfo({ vis }) {
 							/>
 						</div>
 						<div className='z-40 view-animate-[--subjectReveal] animate-slide-in-top'>
-							<p className='text-wight text-center pt-4'>
+							<p className='text-wight text-center pt-5 pb-2'>
 								Поле делится на квадраты 3х3, при заполнении такого квадрата, он
 								вновь становится пустым, но захватывает соседние.
 							</p>
 						</div>
-						<div className='relative row-span-2 z-40 view-animate-[--subjectReveal] animate-blurred-fade-in'>
+						<div className='relative z-40 view-animate-[--subjectReveal] animate-blurred-fade-in pb-4'>
 							<img
 								className='object-fill rounded-3xl z-20  border-2 border-fuchsia-600'
 								src='/Spread/2.png'
@@ -83,11 +83,11 @@ export default function SpreadInfo({ vis }) {
 							/>
 						</div>
 						<div className='z-40 view-animate-[--subjectReveal] animate-slide-in-top'>
-							<p className='text-wight text-center pt-6 z-40'>
+							<p className='text-wight text-center pt-5 pb-2'>
 								Цель игры захвотить все поля соперника.
 							</p>
 						</div>
-						<div className='relative row-span-2 z-40 view-animate-[--subjectReveal] animate-blurred-fade-in'>
+						<div className='relative z-40 view-animate-[--subjectReveal] animate-blurred-fade-in pb-4'>
 							<img
 								className='object-fill rounded-3xl z-20  border-2 border-emerald-400'
 								src='/Spread/3.png'

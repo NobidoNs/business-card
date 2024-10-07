@@ -57,13 +57,13 @@ export default function TanksInfo({ vis }) {
 						</div>
 					</div>
 
-					<div className='md:hidden grid grid-rows-9 px-4 grid-cols-1 h-full pb-5 z-40 md:hidden rounded-lg'>
+					<div className='md:hidden px-4 h-full pb-5 z-40 md:hidden rounded-lg'>
 						<div className='z-40 view-animate-[--subjectReveal] animate-slide-in-top'>
-							<p className='text-wight text-center pt-4 '>
+							<p className='text-wight text-center pt-5 pb-2'>
 								Это - монгопользовательская игра.
 							</p>
 						</div>
-						<div className='relative row-span-2 z-40 view-animate-[--subjectReveal] animate-blurred-fade-in'>
+						<div className='relative z-40 view-animate-[--subjectReveal] animate-blurred-fade-in pb-4'>
 							<img
 								className='object-fill rounded-3xl z-20 border-2 border-sky-400'
 								src='/Tanks/Tanks.png'
@@ -72,12 +72,12 @@ export default function TanksInfo({ vis }) {
 							/>
 						</div>
 						<div className='z-40 view-animate-[--subjectReveal] animate-slide-in-top'>
-							<p className='text-wight text-center pt-4'>
+							<p className='text-wight text-center pt-5 pb-2'>
 								Суть игры - уклоняться от снарядов, накапливать энергию,
 								улучшать танк.
 							</p>
 						</div>
-						<div className='relative row-span-2 z-40 view-animate-[--subjectReveal] animate-blurred-fade-in'>
+						<div className='relative z-40 view-animate-[--subjectReveal] animate-blurred-fade-in pb-4'>
 							<img
 								className='object-fill rounded-3xl z-20 border-2 border-fuchsia-600'
 								src='/Tanks/TanksTree.png'
@@ -86,11 +86,11 @@ export default function TanksInfo({ vis }) {
 							/>
 						</div>
 						<div className='z-40 view-animate-[--subjectReveal] animate-slide-in-top'>
-							<p className='text-wight text-center pt-6 z-40'>
+							<p className='text-wight text-center pt-5 pb-2'>
 								Победите соперников в честной борьбе.
 							</p>
 						</div>
-						<div className='relative row-span-2 z-40 view-animate-[--subjectReveal] animate-blurred-fade-in'>
+						<div className='relative z-40 view-animate-[--subjectReveal] animate-blurred-fade-in pb-4'>
 							<img
 								className='object-fill rounded-3xl z-20 border-2 border-emerald-400'
 								src='/Tanks/TanksGun.png'

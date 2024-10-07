@@ -54,13 +54,13 @@ export default function MapInfo({ vis }) {
 						</div>
 					</div>
 
-					<div className='md:hidden grid grid-rows-9 px-4 grid-cols-1 h-full pb-5 z-40 md:hidden rounded-lg'>
+					<div className='md:hidden grid px-4 h-full pb-5 z-40 md:hidden rounded-lg'>
 						<div className='z-40 view-animate-[--subjectReveal] animate-slide-in-top'>
-							<p className='text-wight text-center pt-4 '>
+							<p className='text-wight text-center pt-5 pb-2'>
 								Проект на базе яндекс карт.
 							</p>
 						</div>
-						<div className='relative row-span-2 z-40 view-animate-[--subjectReveal] animate-blurred-fade-in'>
+						<div className='relative -2 z-40 view-animate-[--subjectReveal] animate-blurred-fade-in pb-4'>
 							<img
 								className='object-fill rounded-3xl z-20  border-2 border-sky-400'
 								src='/Map/1.png'
@@ -69,12 +69,12 @@ export default function MapInfo({ vis }) {
 							/>
 						</div>
 						<div className='z-40 view-animate-[--subjectReveal] animate-slide-in-top'>
-							<p className='text-wight text-center pt-4'>
+							<p className='text-wight text-center pt-5 pb-2'>
 								Он определяет местоположение пользователя, позволяет выделять
 								территорию и прокладывать маршрут в случайное место.
 							</p>
 						</div>
-						<div className='relative row-span-2 z-40 view-animate-[--subjectReveal] animate-blurred-fade-in'>
+						<div className='relative -2 z-40 view-animate-[--subjectReveal] animate-blurred-fade-in pb-4'>
 							<img
 								className='object-fill rounded-3xl z-20  border-2 border-fuchsia-600'
 								src='/Map/2.png'
@@ -83,11 +83,11 @@ export default function MapInfo({ vis }) {
 							/>
 						</div>
 						<div className='z-40 view-animate-[--subjectReveal] animate-slide-in-top'>
-							<p className='text-wight text-center pt-6 z-40'>
+							<p className='text-wight text-center pt-5 pb-2'>
 								Задумывалось использовать, чтобы прогулки стали инререснее.
 							</p>
 						</div>
-						<div className='relative row-span-2 z-40 view-animate-[--subjectReveal] animate-blurred-fade-in'>
+						<div className='relative -2 z-40 view-animate-[--subjectReveal] animate-blurred-fade-in pb-4'>
 							<img
 								className='object-fill rounded-3xl z-20  border-2 border-emerald-400'
 								src='/Map/3.png'
