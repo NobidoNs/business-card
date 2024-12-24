@@ -3,13 +3,13 @@ export default function TanksInfo() {
 		<footer className='w-full leading-6 z-[10] -bottom-full relative flex justify-center'>
 			<div
 				className="select-none z-[-1] absolute md:hidden
-					h-24 w-full left-0 bottom-0 bg-black 
+					h-24 w-full left-0 bottom-0 dark:bg-black 
 				 blur-md content-[''] opacity-100
 				"
 			/>
 			<div
 				className="select-none z-[-1] absolute md:hidden
-					h-24 w-2/5 bottom-0 top-10 bg-black 
+					h-24 w-2/5 bottom-0 top-10 dark:bg-black 
 				 blur-xl content-[''] opacity-100
 				"
 			/>

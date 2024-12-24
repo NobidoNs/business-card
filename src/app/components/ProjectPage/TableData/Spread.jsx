@@ -3,7 +3,8 @@ export default function SpreadInfo({ vis }) {
 		<>
 			{vis && (
 				<div
-					className='hidden md:block absolute z-[-1] right-2 left-2 h-full border-2 rounded-tr-none rounded-lg pl-2 bg-blue opacity-25 select-none view-animate-[--subjectReveal] animate-slide-in-top'
+					className='hidden md:block absolute z-[-1] right-2 left-2 h-full border-2 rounded-tr-none rounded-lg pl-2 bg-blue select-none 
+					view-animate-[--subjectReveal] animate-slide-in-top opacity-50 dark:opacity-25'
 					style={{
 						backgroundImage: 'linear-gradient(0deg, #e97084,#d2b1a1)',
 					}}
