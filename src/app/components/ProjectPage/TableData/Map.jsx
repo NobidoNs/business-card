@@ -14,18 +14,18 @@ export default function MapInfo({ vis }) {
 				<>
 					<div className='hidden md:grid grid-rows-2 grid-cols-3 lg:grid-rows-3 h-full px-4 gap-2 lg:gap-5 z-40'>
 						<div className='z-40 view-animate-[--subjectReveal] animate-slide-in-top'>
-							<p className='text-wight text-center lg:pr-6 lg:pt-4 pt-2'>
+							<p className='text-wight text-center lg:pr-6 lg:pt-4 pt-2 font-bold dark:font-normal'>
 								Проект на базе яндекс карт.
 							</p>
 						</div>
 						<div className='z-40 view-animate-[--subjectReveal] animate-slide-in-top'>
-							<p className='text-wight text-center lg:pr-6 lg:pt-4 pt-2 text-sm lg:text-base'>
+							<p className='text-wight text-center lg:pr-6 lg:pt-4 pt-2 text-sm lg:text-base font-bold dark:font-normal'>
 								Он определяет местоположение пользователя, позволяет выделять
 								территорию и прокладывать маршрут в случайное место.
 							</p>
 						</div>
 						<div className='z-40 view-animate-[--subjectReveal] animate-slide-in-top'>
-							<p className='text-wight text-center lg:pr-6 lg:pt-4 pt-2'>
+							<p className='text-wight text-center lg:pr-6 lg:pt-4 pt-2 font-bold dark:font-normal'>
 								Задумывалось использовать, чтобы прогулки стали инререснее.
 							</p>
 						</div>
@@ -57,7 +57,7 @@ export default function MapInfo({ vis }) {
 
 					<div className='md:hidden grid px-4 h-full pb-5 z-40 md:hidden rounded-lg'>
 						<div className='z-40 view-animate-[--subjectReveal] animate-slide-in-top'>
-							<p className='text-wight text-center pt-5 pb-2'>
+							<p className='text-wight text-center pt-5 pb-2 font-bold dark:font-normal'>
 								Проект на базе яндекс карт.
 							</p>
 						</div>
@@ -70,7 +70,7 @@ export default function MapInfo({ vis }) {
 							/>
 						</div>
 						<div className='z-40 view-animate-[--subjectReveal] animate-slide-in-top'>
-							<p className='text-wight text-center pt-5 pb-2'>
+							<p className='text-wight text-center pt-5 pb-2 font-bold dark:font-normal'>
 								Он определяет местоположение пользователя, позволяет выделять
 								территорию и прокладывать маршрут в случайное место.
 							</p>
@@ -84,7 +84,7 @@ export default function MapInfo({ vis }) {
 							/>
 						</div>
 						<div className='z-40 view-animate-[--subjectReveal] animate-slide-in-top'>
-							<p className='text-wight text-center pt-5 pb-2'>
+							<p className='text-wight text-center pt-5 pb-2 font-bold dark:font-normal'>
 								Задумывалось использовать, чтобы прогулки стали инререснее.
 							</p>
 						</div>

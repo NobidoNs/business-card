@@ -17,18 +17,18 @@ export default function TanksInfo({ vis }) {
 				<>
 					<div className='hidden md:grid grid-rows-2 grid-cols-3 lg:grid-rows-3 h-full px-4 gap-2 lg:gap-5 z-40'>
 						<div className='z-40 view-animate-[--subjectReveal] animate-slide-in-top'>
-							<p className='text-wight text-center pr-6 pt-4 '>
+							<p className='text-wight text-center pr-6 pt-4 font-bold dark:font-normal'>
 								Это - монгопользовательская игра.
 							</p>
 						</div>
 						<div className='z-40 view-animate-[--subjectReveal] animate-slide-in-top'>
-							<p className='text-wight text-center pr-6 pt-4'>
+							<p className='text-wight text-center pr-6 pt-4 font-bold dark:font-normal'>
 								Суть игры - уклоняться от снарядов, накапливать энергию,
 								улучшать танк.
 							</p>
 						</div>
 						<div className='z-40 view-animate-[--subjectReveal] animate-slide-in-top'>
-							<p className='text-wight text-center pr-6 pt-4 z-40'>
+							<p className='text-wight text-center pr-6 pt-4 z-40 font-bold dark:font-normal'>
 								Победите соперников в честной борьбе.
 							</p>
 						</div>
@@ -60,7 +60,7 @@ export default function TanksInfo({ vis }) {
 
 					<div className='md:hidden px-4 h-full pb-5 z-40 md:hidden rounded-lg'>
 						<div className='z-40 view-animate-[--subjectReveal] animate-slide-in-top'>
-							<p className='text-wight text-center pt-5 pb-2'>
+							<p className='text-wight text-center pt-5 pb-2 font-bold dark:font-normal'>
 								Это - монгопользовательская игра.
 							</p>
 						</div>
@@ -73,7 +73,7 @@ export default function TanksInfo({ vis }) {
 							/>
 						</div>
 						<div className='z-40 view-animate-[--subjectReveal] animate-slide-in-top'>
-							<p className='text-wight text-center pt-5 pb-2'>
+							<p className='text-wight text-center pt-5 pb-2 font-bold dark:font-normal'>
 								Суть игры - уклоняться от снарядов, накапливать энергию,
 								улучшать танк.
 							</p>
@@ -87,7 +87,7 @@ export default function TanksInfo({ vis }) {
 							/>
 						</div>
 						<div className='z-40 view-animate-[--subjectReveal] animate-slide-in-top'>
-							<p className='text-wight text-center pt-5 pb-2'>
+							<p className='text-wight text-center pt-5 pb-2 font-bold dark:font-normal'>
 								Победите соперников в честной борьбе.
 							</p>
 						</div>

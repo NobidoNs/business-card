@@ -14,18 +14,18 @@ export default function SpreadInfo({ vis }) {
 				<>
 					<div className='hidden md:grid grid-rows-2 grid-cols-3 lg:grid-rows-3 h-full px-4 gap-2 lg:gap-5 z-40'>
 						<div className='z-40 view-animate-[--subjectReveal] animate-slide-in-top'>
-							<p className='text-wight text-center pr-6 pt-4 '>
+							<p className='text-wight text-center pr-6 pt-4 font-bold dark:font-normal'>
 								Spread - игра на клеточном поле.
 							</p>
 						</div>
 						<div className='z-40 view-animate-[--subjectReveal] animate-slide-in-top'>
-							<p className='text-wight text-center pr-6 pt-4 text-sm lg:text-base'>
+							<p className='text-wight text-center pr-6 pt-4 text-sm lg:text-base font-bold dark:font-normal'>
 								Поле делится на квадраты 3х3, при заполнении такого квадрата, он
 								вновь становится пустым, но захватывает соседние.
 							</p>
 						</div>
 						<div className='z-40 view-animate-[--subjectReveal] animate-slide-in-top'>
-							<p className='text-wight text-center pr-6 pt-4 z-40'>
+							<p className='text-wight text-center pr-6 pt-4 z-40 font-bold dark:font-normal'>
 								Цель игры захвотить все поля соперника.
 							</p>
 						</div>
@@ -57,7 +57,7 @@ export default function SpreadInfo({ vis }) {
 
 					<div className='md:hidden px-4 h-full pb-5 z-40 md:hidden rounded-lg'>
 						<div className='z-40 view-animate-[--subjectReveal] animate-slide-in-top'>
-							<p className='text-wight text-center pt-5 pb-2'>
+							<p className='text-wight text-center pt-5 pb-2 font-bold dark:font-normal'>
 								Spread - игра на клеточном поле.
 							</p>
 						</div>
@@ -70,7 +70,7 @@ export default function SpreadInfo({ vis }) {
 							/>
 						</div>
 						<div className='z-40 view-animate-[--subjectReveal] animate-slide-in-top'>
-							<p className='text-wight text-center pt-5 pb-2'>
+							<p className='text-wight text-center pt-5 pb-2 font-bold dark:font-normal'>
 								Поле делится на квадраты 3х3, при заполнении такого квадрата, он
 								вновь становится пустым, но захватывает соседние.
 							</p>
@@ -84,7 +84,7 @@ export default function SpreadInfo({ vis }) {
 							/>
 						</div>
 						<div className='z-40 view-animate-[--subjectReveal] animate-slide-in-top'>
-							<p className='text-wight text-center pt-5 pb-2'>
+							<p className='text-wight text-center pt-5 pb-2 font-bold dark:font-normal'>
 								Цель игры захвотить все поля соперника.
 							</p>
 						</div>
