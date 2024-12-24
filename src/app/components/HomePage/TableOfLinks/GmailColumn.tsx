@@ -16,10 +16,10 @@ export function GmailColumn() {
 			<CopyToClipboard text={textToCopy} onCopy={onCopyText}>
 				<div
 					className='flex justify-center md:max-lg:flex px-5 py-4 select-none group transition-colors
-				rounded-full border border-transparent bg-gradient-to-r from-violet-400/70 to-fuchsia-500/70
-				hover:shadow-lg hover:shadow-cyan-500/50 hover:border-neutral-700 hover:bg-neutral-800/30 
+				rounded-full border border-transparent bg-gradient-to-t from-violet-400/70 to-fuchsia-500/70 text-gray-700
+				hover:shadow-lg hover:shadow-cyan-500/50 dark:hover:border-neutral-700 hover:bg-neutral-800/30 
 				bg-neutral-800/30 border-neutral-700 md:bg-transparent md:border-transparent md:from-transparent
-				cursor-pointer'
+				hover:text-black dark:text-white hover:dark:text-white cursor-pointer'
 				>
 					<a target='_blank' rel='noopener noreferrer'>
 						<h2 className='md:mb-3 text-2xl text-center font-semibold'>
@@ -32,14 +32,14 @@ export function GmailColumn() {
 				</div>
 			</CopyToClipboard>
 			<div className='pt-3 select-auto'>
-				<p className='left-0 top-0 p-4 flex w-full justify-center border backdrop-blur-2xl border-neutral-800 bg-zinc-800/30 from-inherit rounded-xl'>
+				<p className='left-0 top-0 p-4 flex w-full justify-center backdrop-blur-2xl from-inherit rounded-xl bg-zinc-400 border border-blue-400 dark:bg-zinc-800/30 dark:border-neutral-800'>
 					<code className='select-all font-mono font-bold'>
 						NobidoN.Tim@gmail.com
 					</code>
 				</p>
 			</div>
 			{copyStatus && (
-				<p className='text-center font-mono font-bold pt-3'>
+				<p className='text-center font-mono font-bold pt-3 text-gray-700'>
 					Gmail copied to clipboard
 				</p>
 			)}
