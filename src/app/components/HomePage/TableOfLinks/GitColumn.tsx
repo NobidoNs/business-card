@@ -26,7 +26,7 @@ export function GitColumn() {
 			<div className='flex justify-center md:max-lg:flex pt-2'>
 				<a href='https://github.com/NobidoNs' target='_blank'>
 					<img
-						className='object-fill hover:drop-shadow-[0_0_0.5rem_#60a5fa]'
+						className='object-fill hover:drop-shadow-[0_0_0.5rem_#420bff] dark:hover:drop-shadow-[0_0_0.5rem_#60a5fa]'
 						src='/Main/github-2.png'
 						width={128}
 						height={128}

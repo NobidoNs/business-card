@@ -35,20 +35,37 @@ body {
 ::-webkit-scrollbar {
 	width: 10px;
 }
+
 ::-webkit-scrollbar-track {
-	background: #333;
+	background: #33333377;
 	border-radius: 5px;
 }
-
 /* Handle */
 ::-webkit-scrollbar-thumb {
-	background: #f1f1f154;
+	background: #22222277;
 	border-radius: 5px;
 }
-
-/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-	background: #222;
+	background: #333333;
+}
+
+@media (prefers-color-scheme: dark) {
+	::-webkit-scrollbar-track {
+		background: #333;
+		border-radius: 5px;
+	}
+
+	/* Handle */
+
+	::-webkit-scrollbar-thumb {
+		background: #f1f1f154;
+		border-radius: 5px;
+	}
+
+	/* Handle on hover */
+	::-webkit-scrollbar-thumb:hover {
+		background: #222;
+	}
 }
 
 .round {
@@ -68,14 +85,33 @@ body {
 	animation: move 3s ease-out 2s infinite;
 }
 
-.chevron:before,
+.chevron:before {
+	content: ' ';
+	position: absolute;
+	top: 0;
+	height: 100%;
+	width: 50%;
+	background: #8880ff;
+}
 .chevron:after {
 	content: ' ';
 	position: absolute;
 	top: 0;
 	height: 100%;
 	width: 50%;
-	background: #ffffff80;
+	background: #8880fff0;
+}
+
+@media (prefers-color-scheme: dark) {
+	.chevron:before,
+	.chevron:after {
+		content: ' ';
+		position: absolute;
+		top: 0;
+		height: 100%;
+		width: 50%;
+		background: #ffffff80;
+	}
 }
 
 .chevron:before {

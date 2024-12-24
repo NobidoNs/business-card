@@ -29,7 +29,7 @@ export function DiscordColumn() {
 					target='_blank'
 				>
 					<img
-						className='object-fill hover:drop-shadow-[0_0_0.5rem_#60a5fa]'
+						className='object-fill hover:drop-shadow-[0_0_0.5rem_#0B72ff] dark:hover:drop-shadow-[0_0_0.5rem_#60a5fa]'
 						src='/Main/Discord3D.png'
 						width={128}
 						height={128}
