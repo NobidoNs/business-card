@@ -30,11 +30,11 @@ export default function ContactPage() {
 					<DiscordColumn />
 				</div>
 
-				<div className='mt-28 md:mt-6 relative z-10'>
+				<div className='mt-16 md:mt-6 relative z-10'>
 					<ProjectLink />
 				</div>
 
-				<div className='bottom-12 md:absolute h-6 w-6 opacity-100 cursor-default'>
+				<div className='bottom-12 h-6 w-6 opacity-100 cursor-default md:absolute '>
 					<div className='absolute w-7 h-2 chevron'></div>
 					<div className='absolute w-7 h-2 chevron'></div>
 					<div className='absolute w-7 h-2 chevron'></div>

@@ -1,6 +1,6 @@
 export default function TanksInfo() {
 	return (
-		<footer className='w-full leading-6 z-[10] -bottom-full relative flex justify-center'>
+		<footer className='w-full leading-6 z-10 relative flex justify-center'>
 			<div
 				className="select-none z-[-1] absolute md:hidden
 					h-24 w-full left-0 bottom-0 dark:bg-black 

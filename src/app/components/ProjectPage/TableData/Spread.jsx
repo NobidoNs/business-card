@@ -31,6 +31,7 @@ export default function SpreadInfo({ vis }) {
 						</div>
 						<div className='relative row-span-2  rounded-3xl z-40 view-animate-[--subjectReveal] animate-blurred-fade-in'>
 							<img
+								loading='eager'
 								className='object-fill rounded-3xl z-20  border-2 border-sky-400'
 								src='/Spread/emp.png'
 								alt=''
@@ -39,6 +40,7 @@ export default function SpreadInfo({ vis }) {
 						</div>
 						<div className='relative row-span-2 z-40 view-animate-[--subjectReveal] animate-blurred-fade-in'>
 							<img
+								loading='eager'
 								className='object-fill rounded-3xl z-20 border-2 border-fuchsia-600'
 								src='/Spread/2.png'
 								alt=''
@@ -47,6 +49,7 @@ export default function SpreadInfo({ vis }) {
 						</div>
 						<div className='relative row-span-2 z-40 view-animate-[--subjectReveal] animate-blurred-fade-in'>
 							<img
+								loading='eager'
 								className='object-fill rounded-3xl z-20 border-2 border-emerald-400'
 								src='/Spread/3.png'
 								alt=''
@@ -55,7 +58,7 @@ export default function SpreadInfo({ vis }) {
 						</div>
 					</div>
 
-					<div className='md:hidden px-4 h-full pb-5 z-40 md:hidden rounded-lg'>
+					<div className='px-4 h-full pb-5 z-40 md:hidden rounded-lg'>
 						<div className='z-40 view-animate-[--subjectReveal] animate-slide-in-top'>
 							<p className='text-wight text-center pt-5 pb-2 font-bold dark:font-normal'>
 								Spread - игра на клеточном поле.
@@ -63,6 +66,7 @@ export default function SpreadInfo({ vis }) {
 						</div>
 						<div className='relative z-40 view-animate-[--subjectReveal] animate-blurred-fade-in pb-4'>
 							<img
+								loading='eager'
 								className='object-fill rounded-3xl z-20  border-2 border-sky-400'
 								src='/Spread/emp.png'
 								alt=''
@@ -77,6 +81,7 @@ export default function SpreadInfo({ vis }) {
 						</div>
 						<div className='relative z-40 view-animate-[--subjectReveal] animate-blurred-fade-in pb-4'>
 							<img
+								loading='eager'
 								className='object-fill rounded-3xl z-20  border-2 border-fuchsia-600'
 								src='/Spread/2.png'
 								alt=''
@@ -90,6 +95,7 @@ export default function SpreadInfo({ vis }) {
 						</div>
 						<div className='relative z-40 view-animate-[--subjectReveal] animate-blurred-fade-in pb-4'>
 							<img
+								loading='eager'
 								className='object-fill rounded-3xl z-20  border-2 border-emerald-400'
 								src='/Spread/3.png'
 								alt=''

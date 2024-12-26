@@ -11,7 +11,7 @@ export default function Decorations() {
 				className="select-none z-[-2] md:absolute
 					h-full w-full bg-gradient-to-t 
 				blur-2xl content-[''] from-violet-500 to-LB opacity-50
-				right-0 -bottom-full md:opacity-30"
+				right-0 -bottom-full md:opacity-30 hidden"
 			/>
 			<div
 				className="select-none z-[-2] absolute
