@@ -5,10 +5,10 @@ import { DiscordColumn } from '../../components/HomePage/TableOfLinks/DiscordCol
 
 export default function ContactPage() {
 	return (
-		<div className='md:h-svh w-full flex-col items-center justify-between bg-local'>
-			<div className='flex h-full md:h-auto md:pt-40 w-full flex-col items-center justify-between bg-local pt-5'>
+		<div className='md:h-svh w-full flex flex-col items-center bg-local'>
+			<div className='h-full w-full flex flex-col items-center pt-5 md:pt-40'>
 				<div
-					className="select-none relative z-[1] flex place-items-center before:absolute before:h-[300px]
+					className="select-none relative z-1 flex place-items-center before:absolute before:h-[300px]
 						before:w-full sm:before:w-[500px] before:-translate-x-1/4 before:rounded-full before:bg-gradient-to-br before:from-transparent
 						before:to-blue-700 before:blur-2xl before:content-[''] before:opacity-30
 							after:absolute after:-z-20 after:h-[180px] after:w-full after:-translate-x-1/4 after:bg-gradient-conic
@@ -24,13 +24,13 @@ export default function ContactPage() {
 					/>
 				</div>
 
-				<div className='z-10 relative space-y-24 pb-24 grid text-center grid-cols-1 md:grid-cols-3 md:space-y-0 md:mb-0 lg:w-full lg:max-w-5xl lg:text-left py-16 md:py-20 '>
+				<div className='z-10 relative space-y-24 grid text-center grid-cols-1 md:grid-cols-3 md:justify-between md:space-y-0 lg:w-full lg:max-w-5xl lg:text-left py-16 md:py-20 '>
 					<GitColumn />
 					<GmailColumn />
 					<DiscordColumn />
 				</div>
 
-				<div className='mt-6 relative z-10'>
+				<div className='mt-28 md:mt-6 relative z-10'>
 					<ProjectLink />
 				</div>
 
