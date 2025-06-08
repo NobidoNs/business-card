@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react'
 
-export function SpreadImage({ onChange }) {
+export function ContentionImage({ onChange }) {
 	const [style, setStyle] = useState({ transform: '' })
 	const [style2, setStyle2] = useState({ transform: '' })
 
@@ -61,8 +61,8 @@ export function SpreadImage({ onChange }) {
 			</div>
 			<img
 				className='relative object-fill md:hover:drop-shadow-[0_0_0.5rem_#60a5fa] rounded-3xl z-20 border-2 border-zinc-500 cursor-pointer hidden md:block'
-				src='/Spread/spread.png'
-				alt='Spread'
+				src='/Contention/main.png'
+				alt='Contention'
 				fill={'true'}
 				onMouseMove={handleMouseMove}
 				onMouseLeave={handleMouseLeave}
@@ -71,8 +71,8 @@ export function SpreadImage({ onChange }) {
 			/>
 			<img
 				className='object-fill rounded-3xl z-20 border-2 border-zinc-500 cursor-pointer md:hidden'
-				src='/Spread/spread.png'
-				alt='Spread'
+				src='/Contention/main.png'
+				alt='Contention'
 				fill={'true'}
 				style={{ ...style }}
 				onClick={onChange}

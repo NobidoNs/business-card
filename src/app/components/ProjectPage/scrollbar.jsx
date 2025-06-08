@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 
 import { TanksImage } from './Images/Tanks'
 import { MapImage } from './Images/Map'
-import { SpreadImage } from './Images/Spread'
+import { ContentionImage } from './Images/Contention'
 
 import 'swiper/css'
 
@@ -19,10 +19,10 @@ export default function ImageSwiper({ TChange, MChange, SChange }) {
 				<TanksImage onChange={TChange} />
 			</SwiperSlide>
 			<SwiperSlide>
-				<MapImage onChange={MChange} />
+				<ContentionImage onChange={SChange} />
 			</SwiperSlide>
 			<SwiperSlide>
-				<SpreadImage onChange={SChange} />
+				<MapImage onChange={MChange} />
 			</SwiperSlide>
 		</Swiper>
 	)

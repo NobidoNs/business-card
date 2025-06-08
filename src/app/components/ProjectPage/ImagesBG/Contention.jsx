@@ -1,4 +1,4 @@
-export default function SpreadBG({ vis }) {
+export default function ContentionBG({ vis }) {
 	return (
 		<>
 			{vis && (

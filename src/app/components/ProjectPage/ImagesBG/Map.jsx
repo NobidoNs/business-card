@@ -3,7 +3,7 @@ export default function MapBG({ vis }) {
 		<>
 			{vis && (
 				<div className='absolute top-2 h-full w-full left-0 view-animate-[--subjectReveal] animate-slide-in-top hidden md:block'>
-					<div className='pb-1.5 h-full'>
+					<div className='pb-1.5 pr-2 h-full'>
 						<div
 							className='border-x-2 border-t h-full rounded-t-md z-20 opacity-40 dark:hidden'
 							style={{
