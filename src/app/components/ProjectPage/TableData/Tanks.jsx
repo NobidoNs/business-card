@@ -1,5 +1,7 @@
 'use client'
 
+import Link from 'next/link'
+
 export default function TanksInfo({ vis }) {
 	return (
 		<>
@@ -15,6 +17,16 @@ export default function TanksInfo({ vis }) {
 			)}
 			{vis && (
 				<>
+					<div className='flex justify-center items-center x-4'>
+						<Link href='https://tanks-1n99.onrender.com/' className='w-full max-w-md md:w-auto md:max-w-none'>
+							<div
+								className='select-none rotate-x-[deg] rotate-y-[6deg] flex justify-center items-center py-3 px-4 sm:py-5 sm:px-14 bg-gradient-to-r from-gray-900 to-blue-700 text-white text-sm sm:text-lg text-center font-semibold rounded-md
+								hover:shadow-lg hover:shadow-blue-500 focus:outline-none dark:from-black dark:to-blue-500 dark:hover:shadow-blue-400/70 w-full'
+							>
+								<p className='px-2 sm:px-8 md:px-16 md:px-32 break-all'>tanks-1n99.onrender.com</p>
+							</div>
+						</Link>
+					</div>
 					<div className='hidden md:grid grid-rows-2 grid-cols-3 lg:grid-rows-3 h-full px-4 gap-2 lg:gap-5 z-40'>
 						<div className='z-40 view-animate-[--subjectReveal] animate-slide-in-top'>
 							<p className='text-wight text-center pr-6 pt-4 font-bold dark:font-normal'>
